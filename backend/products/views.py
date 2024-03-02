@@ -7,7 +7,7 @@ from .models import Product, Category
 class ProductsListView(ListView):
     model = Product
     template_name = "products/product_list.html"
-    context_object_name = "product_list"
+    context_object_name = "products"
 
     def get_queryset(self):
         return Product.objects.filter(is_published=True)

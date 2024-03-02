@@ -159,6 +159,7 @@ a:hover {
     border: 1px solid var(--grey-color);
     background-color: #fff;
     position: relative;
+    height:100%;
 
 }
 
@@ -225,7 +226,7 @@ a:hover {
 
 .product-except {
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
     height: 70px;
     overflow: hidden;
