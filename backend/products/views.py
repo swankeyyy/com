@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views import View
 from django.views.generic import ListView, TemplateView
-from .models import Product, Category
+from .models import Product, Category, Brand, Tag
 
 
 class ProductsListView(ListView):
@@ -27,4 +27,5 @@ class PageTitleSearchResultsView(View):
         query = request.GET.get("q")
         products = Product.objects.filter(name__icontains=query)
         return render(request, "products/product_list.html", {"products": products})
+
 

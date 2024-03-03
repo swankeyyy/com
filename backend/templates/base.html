@@ -176,102 +176,9 @@
                     <h1 class="h2 mb-3 section-title">Игры для PlayStation 4</h1>
                     <div class="col-3 bg-white ">
                         <div class="sidebar">
-                            <div class="filter-block">
-                                <h5 class="section-title"><span>Filter by color</span></h5>
-                                <form action="">
-                                    <div class="form-check d-flex justify-content-between">
-                                        <div>
-                                            <input class="form-check-input" type="checkbox" value="" id="black">
-                                            <label class="form-check-label" for="black">
-                                                black
-                                            </label>
-                                        </div>
-                                        <span class="badge border rounded-0">100</span>
-                                    </div>
-                                    <div class="form-check d-flex justify-content-between">
-                                        <div>
-                                            <input class="form-check-input" type="checkbox" value="" id="white">
-                                            <label class="form-check-label" for="white">
-                                                white
-                                            </label>
-                                        </div>
-                                        <span class="badge border rounded-0">110</span>
-                                    </div>
-                                    <div class="form-check d-flex justify-content-between">
-                                        <div>
-                                            <input class="form-check-input" type="checkbox" value="" id="red">
-                                            <label class="form-check-label" for="red">
-                                                red
-                                            </label>
-                                        </div>
-                                        <span class="badge border rounded-0">130</span>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="filter-block">
-                                <h5 class="section-title"><span>Filter by color</span></h5>
-                                <form action="">
-                                    <div class="form-check d-flex justify-content-between">
-                                        <div>
-                                            <input class="form-check-input" type="checkbox" value="" id="black">
-                                            <label class="form-check-label" for="black">
-                                                black
-                                            </label>
-                                        </div>
-                                        <span class="badge border rounded-0">100</span>
-                                    </div>
-                                    <div class="form-check d-flex justify-content-between">
-                                        <div>
-                                            <input class="form-check-input" type="checkbox" value="" id="white">
-                                            <label class="form-check-label" for="white">
-                                                white
-                                            </label>
-                                        </div>
-                                        <span class="badge border rounded-0">110</span>
-                                    </div>
-                                    <div class="form-check d-flex justify-content-between">
-                                        <div>
-                                            <input class="form-check-input" type="checkbox" value="" id="red">
-                                            <label class="form-check-label" for="red">
-                                                red
-                                            </label>
-                                        </div>
-                                        <span class="badge border rounded-0">130</span>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="filter-block">
-                                <h5 class="section-title"><span>Filter by color</span></h5>
-                                <form action="">
-                                    <div class="form-check d-flex justify-content-between">
-                                        <div>
-                                            <input class="form-check-input" type="checkbox" value="" id="black">
-                                            <label class="form-check-label" for="black">
-                                                black
-                                            </label>
-                                        </div>
-                                        <span class="badge border rounded-0">100</span>
-                                    </div>
-                                    <div class="form-check d-flex justify-content-between">
-                                        <div>
-                                            <input class="form-check-input" type="checkbox" value="" id="white">
-                                            <label class="form-check-label" for="white">
-                                                white
-                                            </label>
-                                        </div>
-                                        <span class="badge border rounded-0">110</span>
-                                    </div>
-                                    <div class="form-check d-flex justify-content-between">
-                                        <div>
-                                            <input class="form-check-input" type="checkbox" value="" id="red">
-                                            <label class="form-check-label" for="red">
-                                                red
-                                            </label>
-                                        </div>
-                                        <span class="badge border rounded-0">130</span>
-                                    </div>
-                                </form>
-                            </div>
+                            {% get_all_tags %}
+                            {% get_all_brands %}
+
                         </div>
                     </div>
                     <div class="col-9">
@@ -288,17 +195,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="input-group mb-3">
-                                    <span class="input-group-text">Show:</span>
-                                    <select class="form-select" aria-label="Show:">
-                                        <option selected>9</option>
-                                        <option value="15">15</option>
-                                        <option value="30">30</option>
-                                        <option value="45">45</option>
-                                    </select>
-                                </div>
-                            </div>
+                            
                         </div>
                         <div class="row">
                             {% block content %}

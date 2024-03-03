@@ -1,0 +1,16 @@
+<div class="filter-block">
+    <h5 class="section-title"><span>По бренду:</span></h5>
+    <form action="">
+        {% for brand in brands %}
+        <div class="form-check d-flex justify-content-between">
+            <div>
+                <input class="form-check-input" type="checkbox" value="" id="{{ brand }}">
+                <label class="form-check-label" for="{{ brand }}">
+                    {{ brand.name }}
+                </label>
+            </div>
+            <span class="badge border rounded-0">{{ brand.count }}</span>
+        </div>
+        {% endfor %}
+    </form>
+</div>

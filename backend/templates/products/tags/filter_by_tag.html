@@ -1,0 +1,17 @@
+<div class="filter-block">
+    <h5 class="section-title"><span>По году выпуска:</span></h5>
+    <form action="">
+        {% for tag in tags %}
+            <div class="form-check d-flex justify-content-between">
+                <div>
+                    <input class="form-check-input" type="checkbox" value="" id="{{ tag.name }}">
+                    <label class="form-check-label" for="{{ tag.name }}">
+                        {{ tag.name }}
+                    </label>
+                </div>
+                <span class="badge border rounded-0">{{ tag.count }}</span>
+            </div>
+
+        {% endfor %}
+    </form>
+</div>
