@@ -5,15 +5,12 @@ from django.views.generic import ListView, TemplateView
 from .models import Product, Category, Brand, Tag
 
 
-class ProductsListView(ListView):
+class ProductsListView(View):
     """All products at the home page"""
 
-    model = Product
-    template_name = "products/product_list.html"
-    context_object_name = "products"
-
-    def get_queryset(self):
-        return Product.objects.filter(is_published=True)
+    def get(self, request):
+        content = Product.objects.filter(is_published=True)
+        return render(request, "products/product_list.html", {'products': content})
 
 
 class CategoryListView(View):
@@ -26,6 +23,7 @@ class CategoryListView(View):
 
 class PageTitleSearchResultsView(View):
     """Queryset of results searched from top searchfield on page"""
+
     def get(self, request):
         query = request.GET.get("q")
         products = Product.objects.filter(name__icontains=query)
@@ -33,13 +31,25 @@ class PageTitleSearchResultsView(View):
 
 
 class FilteredProductsView(View):
-
     """Filtered products by brand or tag or by tag and brand
         html all in templatetags, by the Q and | it works like python "or"
     """
+
     def get(self, request):
         content = Product.objects.filter(
             Q(brand__name__in=request.GET.getlist("brand")) |
             Q(tag__name__in=request.GET.getlist("tag"))
         )
         return render(request, "products/product_list.html", {"products": content})
+
+
+class SortedView(View):
+    """Sort products view, it get value from form and ordering by it"""
+    def get(self, request, *args, **kwargs):
+        value = request.GET.get("sorting")
+
+        if value:
+            content = Product.objects.all().order_by(value)
+        else:
+            content = Product.objects.all().order_by('id')
+        return render(request, "products/product_list.html", {'products': content})
