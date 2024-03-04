@@ -21,5 +21,4 @@ def get_all_tags():
 def get_all_brands():
     """Searched all brands and their count on related models"""
     content = Brand.objects.all().annotate(count=Count("games"))
-
     return {"brands": content}
