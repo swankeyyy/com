@@ -1,0 +1,10 @@
+<div class="sidebar">
+    {% load products_tag %}
+    <form action="{% url 'filtered_products_view' %}" method="get">
+        {% get_all_tags %}
+        {% get_all_brands %}
+        <button class="btn btn-outline-danger mt-3" type="submit">
+            Подобрать
+        </button>
+    </form>
+</div>

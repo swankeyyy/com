@@ -1,0 +1,313 @@
+:root {
+    --bg-color: #f5f5f5;
+    --text-color: #6c757d;
+    --accent-color: #ffd333;
+    --contrast-color: #3d464d;
+    --grey-color: #ccc;
+    --red-color: #ee6e73;
+    --light-grey-color: #eee;
+
+}
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgb(241, 9, 9),0 0 8px rgba(255, 0, 0, 0.6);
+    box-shadow: inset 0 1px 1px rgba(206, 11, 11, 0.99),0 0 8px rgba(233, 102, 102, 0.6);
+}
+html,
+body {
+    height: 100%;
+
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main.main {
+    flex: 1 1 auto;
+}
+
+body {
+    min-width: 320px;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color)
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*---------------------header---------------------------*/
+
+.header-phone {
+    font-size: 20px;
+    transition: all .5s;
+}
+
+.header-phone a:hover {
+    color: red;
+}
+
+.header-phone i {
+    color: red;
+}
+
+.header-phone i:hover {
+    color: black;
+} 
+
+.header-logo img {
+    max-width: 120px;
+}
+
+.list-categories ul li {
+    font-size: 18px;
+   
+}
+
+.list-categories a {
+    display: block;
+    border-color: #3d464d;
+}
+
+.list-categories a:hover {
+    
+    
+    color: red;
+}
+
+.header-search input {
+    width: 200px;
+}
+
+.header-icons ul li {
+    font-size: 32px;
+    margin-left: 15px;
+    margin-top: 9px;
+    color:#3d464d
+}
+
+.header-icons a {
+    transition: all .5s;
+}
+
+.header-icons a:hover {
+    color:red;
+}
+
+.header-bottom {
+    border-top: 3px solid red;
+    box-shadow: 0 10px 10px rgba(170, 44, 44, 0.3)
+}
+
+.product-img-td img {
+    max-width: 80px;
+}
+
+
+/*--------------Main----------------*/
+.section-title {
+    color: var(--contrast-color);
+}
+/*--------------Sidebar------------*/
+.sidebar {
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.filter-block:not(:last-child) {
+    margin-bottom: 2rem;
+
+}
+
+.filter-block .form-check {
+    margin-bottom: 0.5rem;
+}
+
+.form-check-input[type="checkbox"] {
+    border-radius: 0;
+    border-color: var(--grey-color);
+}
+
+.form-check-input:focus {
+    border-color: var(--grey-color);
+    box-shadow: none;
+}
+
+.form-check-input:checked {
+    background-color: red;
+    border-color: red;
+}
+
+.filter-block .badge {
+    color: red
+}
+
+/*---------------product card--------------------------*/
+
+.product-card {
+    transition: all .3s;
+    border: 1px solid var(--grey-color);
+    background-color: #fff;
+    position: relative;
+    height:100%;
+
+}
+
+.product-card:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .6);
+}
+
+.product-card-offer {
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-transform: uppercase;
+}
+
+.product-card-offer>div {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.offer-hit {
+    background-color: var(--red-color);
+}
+
+.offer-new {
+    background-color: var(--accent-color);
+}
+
+.product-thumb {
+    text-align: center;
+    
+}
+
+.product-thumb img {
+    max-height: 250px;
+}
+
+.product-detail {
+    padding: 10px 20px;
+}
+
+.product-detail h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.product-detail h4 a {
+    height: 45px;
+    overflow: hidden;
+    display: block;
+    transition: all .3s;
+    color: var(--contrast-color)
+}
+
+.product-detail h4 a:hover {
+    color: black;
+}
+
+.product-except {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    height: 70px;
+    overflow: hidden;
+}
+
+.product-bottom-details {
+    border-top: 1px solid var(--light-grey-color);
+    padding-top: 1rem;
+}
+
+.product-price {
+    font-size: 18px;
+    color: var(--red-color);
+    font-weight: 600;
+}
+
+.product-price small {
+    color: var(--grey-color);
+    font-weight: 400;
+    ;
+    text-decoration: line-through;
+    font-size: 0.8rem;
+
+}
+
+/*---------------Sort--------------*/
+
+
+/* Footer--------------------------------------*/
+
+footer {
+    background-color: var(--contrast-color);
+    padding: 50px 0;
+    color: #fff;
+}
+
+footer h4 {
+    color: white;
+
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+footer a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.footer-icons {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    font-size: 20px;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

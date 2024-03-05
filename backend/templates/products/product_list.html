@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+
+
+{% block content %}
+    <section class="main-section">
+        <div class="row mt-4">
+            <h1 class="h2 mb-3 section-title">Игры для PlayStation 4</h1>
+            <div class="col-3 bg-white ">
+
+                {% include 'UI/include/sidebar.html' %}
+
+            </div>
+            <div class="col-9">
+                <div class="row">
+
+                    {% include 'UI/include/sort_panel.html' %}
+
+                </div>
+                <div class="row">
+
+                    {% for product in products %}
+                        <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
+                            <div class="product-card">
+                                <div class="product-card-offer">
+                                    <div class="offer-hit">hit</div>
+                                    <div class="offer-new">new</div>
+                                </div>
+                                <div class="product-thumb">
+                                    <a href="#">
+                                        <img src="{{ product.poster.url }}" alt="poster">
+                                    </a>
+                                </div>
+                                <div class="product-detail">
+                                    <h4>
+                                        <a href="{% url "product_detail_view" product.url %}">{{ product.name }}</a>
+                                    </h4>
+                                    <p class="product-except">
+                                        {{ product.short_description }}
+                                    </p>
+                                    <div class="product-bottom-details d-flex justify-content-between ">
+                                        <div class="product-price">
+                                            <small>70p.</small>
+                                            {{ product.price }}p.
+                                        </div>
+                                        <div class="product-links">
+                                            <a href="#" class="btn btn-outline-secondary add-to-card">
+                                                <i class="fa-solid fa-cart-plus"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}

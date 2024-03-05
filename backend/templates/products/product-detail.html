@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section class="main-section">
+        <div class="row mt-5 mb-5">
+
+            <div class="col-3 bg-white ">
+                <div class="sidebar">
+
+                    <div class="filter-block ">
+
+                        <h5 class="section-title"><span>Последние поступления</span></h5>
+                        <ul class="list-unstyled">
+
+
+                            {% for prod in last_products %}
+                                <li class="my-1">
+                                    <div class="d-flex border border-danger justify-content-between">
+                                        <div><img src="{{ prod.poster.url }}"
+                                                  alt="poster" width="70px" class="py-2 px-2"></div>
+                                        <div class="px-3 py-3">
+                                            <div><span class="text-end fs-4 fw-bolder"><a
+                                                    href="{% url "product_detail_view" prod.url %}">{{ prod.name }}</a></span>
+                                            </div>
+                                            <div>{{ prod.price }}</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            {% endfor %}
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="{{ product.poster.url }}" alt="posterr" width="300px"
+                             class="p-3">
+                    </div>
+                    <div class="col-9 bg-white d-flex flex-column justify-content-between">
+                        <ul class="list-unstyled">
+                            <li><h1 class="h2 mb-3 section-title">{{ product.name }}</h1></li>
+                            <li><span class="fw-bold">Бренд:</span> {{ product.brand }}</li>
+                            <li><span class="fw-bold">Год выпуска:</span>{{ product.year }}</li>
+                            <li><span class="fw-bold">Теги:</span>{% if product.tag.all %}
+                              {{ product.tag.all }}{% endif %}</li>
+                            <li><span class="fw-bold fs-3">Цена: {{ product.price }}</span></li>
+                        </ul>
+                        <button class="btn btn-secondary w-25 mb-3" type="button">
+                            Добавить в корзину
+                        </button>
+                    </div>
+                </div>
+                <div class="row mt-5 p-2">
+                    {{ product.description|safe}}
+                </div>
+                <div class="row mt-5 p-2">
+                    <h1>здесь будут комменты</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock content %}
