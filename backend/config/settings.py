@@ -28,8 +28,9 @@ INSTALLED_APPS = [
     "ckeditor",
     "ckeditor_uploader",
     'django_filters',
+    "users",
 ]
-
+AUTH_USER_MODEL = "users.User"
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
