@@ -58,6 +58,8 @@ class SortedView(View):
 
 
 class ProductDetailView(View):
+    """Detail Product Page"""
+
     template_name = "products/product-detail.html"
 
     def get(self, request, *args, **kwargs):
@@ -65,5 +67,7 @@ class ProductDetailView(View):
         content = Product.objects.get(url=slug)
         last_products = Product.objects.filter(is_published=True)[0:2]
         return render(request, self.template_name, {'product': content, "last_products": last_products})
+
+
 
 
