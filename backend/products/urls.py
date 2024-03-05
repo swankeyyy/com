@@ -7,6 +7,7 @@ urlpatterns = [
     path('sorted/', views.SortedView.as_view(), name="sorted_view"),
     path('category/<slug:slug>', views.CategoryListView.as_view(), name="category_list"),
     path('search/', views.PageTitleSearchResultsView.as_view(), name="page_title_search"),
+    path('product/<slug:slug>', views.ProductDetailView.as_view(), name="product_detail_view")
 
     
 ]

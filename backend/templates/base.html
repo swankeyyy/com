@@ -158,71 +158,16 @@
 
     <main class="main">
         <div class="container-fluid">
-            <section class="main-section">
-                <div class="row mt-4">
-                    <h1 class="h2 mb-3 section-title">Игры для PlayStation 4</h1>
-                    <div class="col-3 bg-white ">
-                        {% include 'UI/include/sidebar.html' %}
-                    </div>
-                    <div class="col-9">
-                        <div class="row">
 
-                                {% include 'UI/include/sort_panel.html' %}
-
-                        </div>
-                        <div class="row">
                             {% block content %}
                             {% endblock content %}
-                        </div>
-                    </div>
-                </div>
-            </section>
+
         </div>
 
 </main>
 
 
-<footer class="footer">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-3 col-6">
-                <h4>Информация</h4>
-                <ul class="list-unstyled ">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Payment</a></li>
-                    <li><a href="#">Delivery</a></li>
-                    <li><a href="#">Contacts</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3 col-6">
-                <h4>Режим работы</h4>
-                <ul class="list-unstyled ">
-                    <li><a href="#">Пн-Пт</a></li>
-                    <li><a href="#">06-18</a></li>
-
-                </ul>
-
-            </div>
-            <div class="col-md-3 col-6">
-                <h4>Контакты</h4>
-                <ul class="list-unstyled ">
-                    <li><a href="#">9379992</a></li>
-                    <li><a href="#">298850178</a></li>
-
-                </ul>
-            </div>
-            <div class="col-md-3 col-6">
-                <h4>Соцсети:</h4>
-                <ul class="footer-icons ">
-                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-viber"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
+{% include 'UI/include/footer.html' %}
 </div>
 
 

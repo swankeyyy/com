@@ -16,7 +16,8 @@ class ProductsListView(View):
 class CategoryListView(View):
     """Products by categories"""
 
-    def get(self, request, slug, *args, **kwargs):
+    def get(self, request, *args, **kwargs):
+        slug = kwargs['slug']
         context = Product.objects.filter(categories__url=slug, is_published=True)
         return render(request, "products/product_list.html", {'products': context})
 
@@ -45,6 +46,7 @@ class FilteredProductsView(View):
 
 class SortedView(View):
     """Sort products view, it get value from form and ordering by it"""
+
     def get(self, request, *args, **kwargs):
         value = request.GET.get("sorting")
 
@@ -53,3 +55,15 @@ class SortedView(View):
         else:
             content = Product.objects.all().order_by('id')
         return render(request, "products/product_list.html", {'products': content})
+
+
+class ProductDetailView(View):
+    template_name = "products/product-detail.html"
+
+    def get(self, request, *args, **kwargs):
+        slug = kwargs['slug']
+        content = Product.objects.get(url=slug)
+        last_products = Product.objects.filter(is_published=True)[0:2]
+        return render(request, self.template_name, {'product': content, "last_products": last_products})
+
+
