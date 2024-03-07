@@ -1,0 +1,14 @@
+<div class="col-lg-4 col-md-2 header-icons">
+    <ul class="list-unstyled d-flex justify-content-end">
+        {% if user.is_authenticated %}
+        <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+        <li><a href="#"><i class="fa-solid fa-truck-fast"></i></a></li>
+        <li><a data-bs-toggle="offcanvas" href="#offcanvasCart" role="button"
+               aria-controls="offcanvasCart"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+        <li><a href="{% url "user_logout_view" %}"><i class="fa-solid fa-door-open"></i></a></li>
+        {% else %}
+        <li><a href="{% url "user_login_view" %}"><i class="fa-solid fa-key"></i></a></li>
+        {% endif %}
+    </ul>
+</div>

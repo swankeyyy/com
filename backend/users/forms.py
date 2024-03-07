@@ -3,21 +3,28 @@ from users.models import User
 from django import forms
 
 
-# class UserLoginForm(AuthenticationForm):
-#     username = forms.CharField(widget=forms.TextInput(attrs={
-#         'class': "form-control py-4", 'id': "inputEmailAddress",
-#         'placeholder': "Введите имя пользователя"
-#     }))
-#     password = forms.CharField(widget=forms.PasswordInput(attrs={
-#         'class': "form-control py-4", 'id': "inputPassword", 'placeholder': "Введите пароль"
-#     }))
-#
-#     class Meta:
-#         model = User
-#         fields = ('username', 'password')
+class UserLoginForm(AuthenticationForm):
+
+    """Form for login page"""
+
+    username = forms.CharField(widget=forms.TextInput(attrs={
+        'class': "form-control", 'id': "username",
+        'placeholder': "Введите имя пользователя",
+    }))
+    password = forms.CharField(widget=forms.PasswordInput(attrs={
+        'class': "form-control", 'id': "password", 'placeholder': "Введите пароль",
+        "type": "password",
+    }))
+
+    class Meta:
+        model = User
+        fields = ('username', 'password')
 
 
 class UserRegistrationForm(UserCreationForm):
+
+    """Form for users/registration page"""
+
     username = forms.CharField(widget=forms.TextInput(attrs={
         'id': "usename", "name": "username", "class": "form-control",
         'placeholder': "Введите имя пользователя"

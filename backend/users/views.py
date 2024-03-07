@@ -1,39 +1,24 @@
-from django.shortcuts import render
+from django.contrib.auth.views import LoginView
 from django.urls import reverse_lazy
-from django.views import View
 from django.views.generic import CreateView
 from users.models import User
-from .forms import UserRegistrationForm
-from django.shortcuts import redirect
-from django.contrib import auth
+from .forms import UserRegistrationForm, UserLoginForm
+from django.contrib.auth.views import LogoutView
 
 
-# class SignView(View):
-#
-#     def get(self, request):
-#         registration_form = UserRegistrationForm()
-#         return render(request, 'users/registration.html', {"registration_form": registration_form})
-#
-#
-#     def post(self, request, **kwargs):
-#         data = request.POST
-#         registration_form = UserRegistrationForm(data)
-#         if registration_form.is_valid():
-#             print(registration_form.cleaned_data)
-#             registration_form.save(phone=0)
-#         else:
-#             print(registration_form.cleaned_data)
-#             registration_form = UserRegistrationForm()
-#         return render(request, 'users/registration.html', {"registration_form": registration_form})
+class UserLogInView(LoginView):
+    """View for login authorization"""
+
+    template_name = "users/login.html"
+    form_class = UserLoginForm
+    redirect_authenticated_user = True
+    next = "main_page_url"
 
 
-class SignView(CreateView):
+class RegistrationView(CreateView):
+    """View for create new user(customer)"""
+
     model = User
     form_class = UserRegistrationForm
     template_name = 'users/registration.html'
     success_url = reverse_lazy('main_page_view')
-
-
-def logout(request):
-    auth.logout(request)
-    return reverse_lazy('main_page_view')
