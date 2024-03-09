@@ -45,7 +45,7 @@
                             <li><span class="fw-bold">Бренд:</span> {{ product.brand }}</li>
                             <li><span class="fw-bold">Год выпуска:</span>{{ product.year }}</li>
                             <li><span class="fw-bold">Теги:</span>{% if product.tag.all %}
-                              {{ product.tag.all }}{% endif %}</li>
+                              {% for tag in product.tag.all %} {{ tag.name }} {% endfor %}{% endif %}</li>
                             <li><span class="fw-bold fs-3">Цена: {{ product.price }}</span></li>
                         </ul>
                         <button class="btn btn-secondary w-25 mb-3" type="button">

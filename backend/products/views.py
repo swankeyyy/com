@@ -1,25 +1,29 @@
 from django.db.models import Q
 from django.shortcuts import render
 from django.views import View
-from django.views.generic import ListView, TemplateView
 from .models import Product, Category, Brand, Tag
+from django.views.generic.base import ContextMixin
 
 
 class ProductsListView(View):
-    """All products at the home page"""
+    """All products at the home page.
+    it filters by tags and gives searched results"""
 
-    def get(self, request, **kwargs):
-        query = request.GET.get("q")
-        tags = any(request.GET.getlist("brand") or request.GET.getlist("tag"))
+    def get_content_by_form(self, data):
+        query = data.GET.get("q")
+        tags = any(data.GET.getlist("brand") or data.GET.getlist("tag"))
         content = Product.objects.filter(is_published=True)
         if query:
             content = content.filter(name__icontains=query)
         elif tags:
             content = content.filter(
-                Q(brand__name__in=request.GET.getlist("brand")) |
-                Q(tag__name__in=request.GET.getlist("tag"))
+                Q(brand__name__in=data.GET.getlist("brand")) |
+                Q(tag__name__in=data.GET.getlist("tag"))
             )
+        return content
 
+    def get(self, request, **kwargs):
+        content = self.get_content_by_form(request)
         return render(request, "products/product_list.html", {'products': content})
 
 
@@ -30,8 +34,6 @@ class CategoryListView(View):
         slug = kwargs['slug']
         context = Product.objects.filter(categories__url=slug, is_published=True)
         return render(request, "products/product_list.html", {'products': context})
-
-
 
 
 class SortedView(View):
@@ -47,12 +49,12 @@ class SortedView(View):
         return render(request, "products/product_list.html", {'products': content})
 
 
-class ProductDetailView(View):
+class ProductDetailView(ContextMixin, View):
     """Detail Product Page"""
 
     template_name = "products/product-detail.html"
 
-    def get(self, request, *args, **kwargs):
+    def get(self, request, **kwargs):
         slug = kwargs['slug']
         content = Product.objects.get(url=slug)
         last_products = Product.objects.filter(is_published=True)[0:2]

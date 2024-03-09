@@ -44,9 +44,11 @@
                                             {{ product.price }}p.
                                         </div>
                                         <div class="product-links">
-                                            <a href="#" class="btn btn-outline-secondary add-to-card">
-                                                <i class="fa-solid fa-cart-plus"></i>
-                                            </a>
+                                            {% if user.is_authenticated %}
+                                                <a href="#" class="btn btn-outline-secondary add-to-card">
+                                                    <i class="fa-solid fa-cart-plus"></i>
+                                                </a>
+                                            {% endif %}
                                         </div>
                                     </div>
                                 </div>
