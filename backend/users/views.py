@@ -33,3 +33,4 @@ class ProfileView(UpdateView):
 
     def get_success_url(self):
         return reverse_lazy('main_page_view')
+

@@ -53,9 +53,6 @@ class UserRegistrationForm(UserCreationForm):
         "class": "form-control",
     }))
 
-    # image = forms.ImageField(widget=forms.FileInput(attrs={
-    #     'class': "custom-file-input"
-    # }), required=False)
     class Meta:
         model = User
         fields = ('first_name', 'last_name', 'username',
@@ -75,7 +72,7 @@ class UserProfileForm(UserChangeForm):
     }), required=False)
     phone = forms.CharField(widget=forms.TextInput(attrs={
         'id': "phone", "name": "phone",
-         "class": "form-control"
+        "class": "form-control"
     }))
     username = forms.CharField(widget=forms.TextInput(attrs={
         'id': "username", "name": "username",
@@ -85,11 +82,16 @@ class UserProfileForm(UserChangeForm):
         'id': "email", "name": "email",
         'class': "form-control", 'readonly': True
     }))
+    adress = forms.CharField(widget=forms.TextInput(attrs={
+        'id': "adress", "name": "adress",
+        'class': "form-control"
 
-    # image = forms.ImageField(widget=forms.FileInput(attrs={
-    #     'class': "custom-file-input"
-    # }), required=False)
+    }), required=False)
+
+    photo = forms.ImageField(widget=forms.FileInput(attrs={
+        'class': "custom-file-input", "id": "photo", "name": "photo",
+    }), required=False)
 
     class Meta:
         model = User
-        fields = ('first_name', 'last_name',  'username', 'email', 'phone')
+        fields = ('first_name', 'last_name', 'username', 'email', 'phone', 'photo', 'adress')
