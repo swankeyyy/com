@@ -45,7 +45,7 @@
                             <li><span class="fw-bold">Бренд:</span> {{ product.brand }}</li>
                             <li><span class="fw-bold">Год выпуска:</span>{{ product.year }}</li>
                             <li><span class="fw-bold">Теги:</span>{% if product.tag.all %}
-                              {% for tag in product.tag.all %} {{ tag.name }} {% endfor %}{% endif %}</li>
+                                {% for tag in product.tag.all %} {{ tag.name }} {% endfor %}{% endif %}</li>
                             <li><span class="fw-bold fs-3">Цена: {{ product.price }}</span></li>
                         </ul>
                         <button class="btn btn-secondary w-25 mb-3" type="button">
@@ -54,12 +54,24 @@
                     </div>
                 </div>
                 <div class="row mt-5 p-2">
-                    {{ product.description|safe}}
+                    {{ product.description|safe }}
                 </div>
-                <div class="row mt-5 p-2">
+                <div class="row mt-3 p-2">
+                    <h1 class="h2 mb-3 section-title">Комментарии</h1>
+                    <div>
+                        <form action="">
+                            <div class="input-comment">
+                                <textarea rows="4" cols="50" type="text" class="form-control comment"
+                                          placeholder="Комментарий...">
 
-                    <h1>здесь будут комменты</h1>
-
+                                </textarea>
+                                <button type="submit" class="btn btn-danger mt-3">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="comments mt-3">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam expedita fugiat itaque officia quibusdam quis vel. Accusantium autem consequuntur delectus, ipsum natus neque nihil quidem tempora unde ut, voluptatem?
+                    </div>
                 </div>
             </div>
         </div>

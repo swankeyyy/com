@@ -25,24 +25,21 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "products",
+
     "ckeditor",
     "ckeditor_uploader",
     'django_filters',
+
     "users",
+    "comments",
+    "products",
 
 ]
-
 
 AUTH_USER_MODEL = "users.User"
 LOGIN_URL = 'user_login_view'
 LOGIN_REDIRECT_URL = 'main_page_view'
 LOGOUT_REDIRECT_URL = 'main_page_view'
-
-
-
-
-
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
