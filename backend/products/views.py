@@ -1,8 +1,11 @@
 from django.db.models import Q
 from django.shortcuts import render
 from django.views import View
+from django.views.generic import DetailView
+
 from .models import Product, Category, Brand, Tag
 from django.views.generic.base import ContextMixin
+from comments.forms import CommentForm
 
 
 class ProductsListView(View):
@@ -49,13 +52,19 @@ class SortedView(View):
         return render(request, "products/product_list.html", {'products': content})
 
 
-class ProductDetailView(ContextMixin, View):
+class ProductDetailView(DetailView):
     """Detail Product Page"""
-
+    model = Product
     template_name = "products/product-detail.html"
+    form = CommentForm()
+    slug_field = "url"
+    context_object_name = "product"
 
-    def get(self, request, **kwargs):
-        slug = kwargs['slug']
-        content = Product.objects.get(url=slug)
-        last_products = Product.objects.filter(is_published=True)[0:2]
-        return render(request, self.template_name, {'product': content, "last_products": last_products})
+    def get_last_products(self):
+        return Product.objects.order_by("-id")[0:2]
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['form'] = self.form
+        context['test'] = 'abc'
+        return context

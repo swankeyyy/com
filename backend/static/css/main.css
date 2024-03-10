@@ -315,14 +315,25 @@ footer a:hover {
     max-width: 500px;
 }
 
+.comment-img {
+    display: block;
+    max-width: 70px;
+}
+
+.comment-username {
+    font-size: 16px;
+    color:black;
+    font-weight: bold;
+}
 
 
+.comment-body {
+    color: black
+}
 
-
-
-
-
-
+.comment-link {
+    color: red;
+}
 
 
 

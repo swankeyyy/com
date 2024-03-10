@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-
+{% load static %}
 {% block content %}
     <section class="main-section">
         <div class="row mt-5 mb-5">
@@ -13,7 +13,7 @@
                         <ul class="list-unstyled">
 
 
-                            {% for prod in last_products %}
+                            {% for prod in view.get_last_products %}
                                 <li class="my-1">
                                     <div class="d-flex border border-danger justify-content-between">
                                         <div><img src="{{ prod.poster.url }}"
@@ -39,7 +39,7 @@
                         <img src="{{ product.poster.url }}" alt="posterr" width="300px"
                              class="p-3">
                     </div>
-                    <div class="col-9 bg-white d-flex flex-column justify-content-between">
+                    <div class="col-9  d-flex flex-column justify-content-between">
                         <ul class="list-unstyled">
                             <li><h1 class="h2 mb-3 section-title">{{ product.name }}</h1></li>
                             <li><span class="fw-bold">Бренд:</span> {{ product.brand }}</li>
@@ -56,24 +56,50 @@
                 <div class="row mt-5 p-2">
                     {{ product.description|safe }}
                 </div>
-                <div class="row mt-3 p-2">
-                    <h1 class="h2 mb-3 section-title">Комментарии</h1>
-                    <div>
-                        <form action="">
-                            <div class="input-comment">
-                                <textarea rows="4" cols="50" type="text" class="form-control comment"
-                                          placeholder="Комментарий...">
+            </div>
+            <div class="row mt-3 p-2">
+                <div class="col-3"></div>
+                <div class="col-9">
+                <h1 class="h2 mb-3 section-title">Комментарии</h1>
+                <div>
+                    <form action="{% url 'add_comment' product.pk %}" method="post">
+                        {% csrf_token %}
+                        <div class="input-comment">
+                            {{ form.text.errors }}
+                            {{ form.text }}
+                            <button type="submit" class="btn btn-danger mt-3">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+                    </div>
 
-                                </textarea>
-                                <button type="submit" class="btn btn-danger mt-3">Отправить</button>
+            </div>
+            <div class="row mt-3 p-2">
+                <div class="col-3"></div>
+                <div class="col-9">
+                    {% for comment in product.comments.all %}
+                        <div class="comment p-2 bg-white">
+                            <div class="comment-header d-flex">
+
+                                <div class="comment-img p-2">
+                                    {% if comment.user.photo %}
+                                        <img src="{{ comment.user.photo.url }}" alt="userphoto">
+                                    {% else %}
+                                        <img src="{% static 'img/empty_profile.png' %}" alt="userphoto">
+                                    {% endif %}
+                                </div>
+
+
+                                <div class="comment-username d-flex align-items-end ms-2">{{ comment.user.username }}</div>
+
                             </div>
-                        </form>
-                    </div>
-                    <div class="comments mt-3">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam expedita fugiat itaque officia quibusdam quis vel. Accusantium autem consequuntur delectus, ipsum natus neque nihil quidem tempora unde ut, voluptatem?
-                    </div>
+                            <div class="comment-body p-2">{{ comment.text }}</div>
+                            <a class="comment-link p-2" href="#">Ответить</a>
+                        </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
+
     </section>
 {% endblock content %}

@@ -12,7 +12,7 @@ class Comment(models.Model):
     text = models.TextField(max_length=400, verbose_name="Текст комментария")
 
     def __str__(self):
-        return f'{self.product} - {self.user.name} - {self.text}'
+        return f'{self.product} - {self.user.username} - {self.text}'
 
     class Meta:
         verbose_name = "Комментарий"
