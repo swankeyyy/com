@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Главная</title>
+    <title>{{ title }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap"
@@ -29,14 +29,16 @@
             <div class="col-12">
                 <div class="page-register bg-white p-3 mb-4">
                     <h1 class="section-title h3 text-center"><span>Профиль</span></h1>
-                    <img src="{{ user.photo.url }}" alt="profile-photo" class="profile-photo my-4">
+                    {% if user.photo %}
+                        <img src="{{ user.photo.url }}" alt="profile-photo" class="profile-photo my-4">
+                    {% endif %}
                     <div class="row">
 
 
                         <div class="col-md-6 offset-md-3">
 
                             <form action="{% url "user_profile_view" user.pk %}" method="post"
-                                   enctype='multipart/form-data'>
+                                  enctype='multipart/form-data'>
                                 {% csrf_token %}
 
 

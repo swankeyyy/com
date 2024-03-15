@@ -2,16 +2,16 @@ from django.db.models import Q
 from django.shortcuts import render
 from django.views import View
 from django.views.generic import DetailView
-
+from common.views import CommonTitleMixin
 from .models import Product, Category, Brand, Tag
 from django.views.generic.base import ContextMixin
 from comments.forms import CommentForm
 
 
-class ProductsListView(View):
+class ProductsListView(CommonTitleMixin, View):
     """All products at the home page.
     it filters by tags and gives searched results"""
-
+    title = 'Главная'
     def get_content_by_form(self, data):
         query = data.GET.get("q")
         tags = any(data.GET.getlist("brand") or data.GET.getlist("tag"))
@@ -27,21 +27,25 @@ class ProductsListView(View):
 
     def get(self, request, **kwargs):
         content = self.get_content_by_form(request)
-        return render(request, "products/product_list.html", {'products': content})
+        return render(request, "products/product_list.html", {'products': content, 'title': self.title})
 
 
 class CategoryListView(View):
     """Products by categories"""
-
+    title = None
     def get(self, request, **kwargs):
         slug = kwargs['slug']
+        title = Category.objects.filter(url=slug)
+        if title:
+            self.title = title[0].name
         context = Product.objects.filter(categories__url=slug, is_published=True)
-        return render(request, "products/product_list.html", {'products': context})
+
+        return render(request, "products/product_list.html", {'products': context, 'title': self.title})
 
 
 class SortedView(View):
     """Sort products view, it get value from form and ordering by it"""
-
+    title = 'Результаты'
     def get(self, request, *args, **kwargs):
         value = request.GET.get("sorting")
 
@@ -49,7 +53,7 @@ class SortedView(View):
             content = Product.objects.all().order_by(value)
         else:
             content = Product.objects.all().order_by('id')
-        return render(request, "products/product_list.html", {'products': content})
+        return render(request, "products/product_list.html", {'products': content, 'title': self.title})
 
 
 class ProductDetailView(DetailView):
@@ -68,4 +72,5 @@ class ProductDetailView(DetailView):
         context['comments'] = self.get_object().comments.order_by('-id')
         context['form'] = self.form
         context['test'] = 'abc'
+        context['title'] = self.get_object().name
         return context
