@@ -27,7 +27,7 @@
                                     <div class="offer-new">new</div>
                                 </div>
                                 <div class="product-thumb">
-                                    <a href="#">
+                                    <a href="{% url "product_detail_view" product.url %}">
                                         <img src="{{ product.poster.url }}" alt="poster">
                                     </a>
                                 </div>
@@ -40,7 +40,6 @@
                                     </p>
                                     <div class="product-bottom-details d-flex justify-content-between ">
                                         <div class="product-price">
-                                            <small>70p.</small>
                                             {{ product.price }}p.
                                         </div>
                                         <div class="product-links">

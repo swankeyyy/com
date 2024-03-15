@@ -61,7 +61,7 @@ class ProductDetailView(DetailView):
     context_object_name = "product"
 
     def get_last_products(self):
-        return Product.objects.order_by("-id")[0:2]
+        return Product.objects.order_by("-id")[0:8]
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
