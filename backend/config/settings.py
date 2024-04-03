@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     "users",
     "comments",
     "products",
+    "basket",
 
 ]
 
@@ -259,3 +260,5 @@ CKEDITOR_CONFIGS = {
         ),
     }
 }
+
+

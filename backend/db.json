@@ -1,1 +1,1824 @@
-[{"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2024-03-07T06:28:44.111Z", "user": 1, "content_type": 10, "object_id": "4", "object_repr": "den4ik", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2024-03-07T06:28:44.122Z", "user": 1, "content_type": 10, "object_id": "3", "object_repr": "denis", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2024-03-07T06:28:44.132Z", "user": 1, "content_type": 10, "object_id": "2", "object_repr": "bilbo", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2024-03-07T09:47:09.356Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Action", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2024-03-07T09:48:43.486Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "#god-of-war", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2024-03-07T09:49:30.701Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "God Of War", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2024-03-07T10:02:59.437Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "God Of War", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2024-03-07T10:03:07.248Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "nhl", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0438\\u0433\\u0440\\u044b(Name of game)\"]}}]"}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2024-03-07T10:03:47.715Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "god", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2024-03-07T10:08:23.193Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "tyu", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2024-03-07T10:08:28.725Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "god", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Url\", \"Tag\"]}}]"}}, {"model": "admin.logentry", "pk": 12, "fields": {"action_time": "2024-03-09T10:20:22.093Z", "user": 1, "content_type": 10, "object_id": "5", "object_repr": "bilbo", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e \\u043f\\u0440\\u043e\\u0444\\u0438\\u043b\\u044f\"]}}]"}}, {"model": "admin.logentry", "pk": 13, "fields": {"action_time": "2024-03-10T06:26:35.147Z", "user": 1, "content_type": 11, "object_id": "1", "object_repr": "nhl - bilbo - текст текст тексттекст текст тексттекст текст тексттекст текст тексттекст текст тексттекст текст тексттекст текст текстм\r\nтекст текст тексттекст текст тексттекст текст тексттекст текст т", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 14, "fields": {"action_time": "2024-03-15T04:47:01.759Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Sport", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 15, "fields": {"action_time": "2024-03-15T04:48:13.358Z", "user": 1, "content_type": 6, "object_id": "1", "object_repr": "ea-sports", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 16, "fields": {"action_time": "2024-03-15T04:48:26.689Z", "user": 1, "content_type": 8, "object_id": "3", "object_repr": "#fifa", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 17, "fields": {"action_time": "2024-03-15T04:49:16.501Z", "user": 1, "content_type": 9, "object_id": "3", "object_repr": "FC24", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 18, "fields": {"action_time": "2024-03-15T04:49:45.352Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "god", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 19, "fields": {"action_time": "2024-03-15T04:49:45.377Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "nhl", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 20, "fields": {"action_time": "2024-03-15T04:51:31.434Z", "user": 1, "content_type": 6, "object_id": "2", "object_repr": "Ubisoft", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 21, "fields": {"action_time": "2024-03-15T04:52:27.491Z", "user": 1, "content_type": 9, "object_id": "4", "object_repr": "God Of War", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 22, "fields": {"action_time": "2024-03-15T04:54:04.862Z", "user": 1, "content_type": 7, "object_id": "3", "object_repr": "Adventures", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 23, "fields": {"action_time": "2024-03-15T04:54:21.274Z", "user": 1, "content_type": 6, "object_id": "3", "object_repr": "Sony", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 24, "fields": {"action_time": "2024-03-15T04:54:42.549Z", "user": 1, "content_type": 8, "object_id": "4", "object_repr": "#вдвоем", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 25, "fields": {"action_time": "2024-03-15T04:55:13.075Z", "user": 1, "content_type": 9, "object_id": "5", "object_repr": "Ratchet & Clank", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 26, "fields": {"action_time": "2024-03-15T04:55:25.201Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "tyu", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 27, "fields": {"action_time": "2024-03-15T04:59:51.166Z", "user": 1, "content_type": 9, "object_id": "6", "object_repr": "Knack 2", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 28, "fields": {"action_time": "2024-03-15T05:01:38.053Z", "user": 1, "content_type": 7, "object_id": "4", "object_repr": "RPG", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 29, "fields": {"action_time": "2024-03-15T05:02:30.899Z", "user": 1, "content_type": 8, "object_id": "5", "object_repr": "#zombie", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 30, "fields": {"action_time": "2024-03-15T05:02:55.829Z", "user": 1, "content_type": 9, "object_id": "7", "object_repr": "Days Gone", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 31, "fields": {"action_time": "2024-03-15T05:04:40.277Z", "user": 1, "content_type": 8, "object_id": "6", "object_repr": "#future", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 32, "fields": {"action_time": "2024-03-15T05:04:51.970Z", "user": 1, "content_type": 9, "object_id": "8", "object_repr": "Detroit Стать человеком", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 33, "fields": {"action_time": "2024-03-15T05:08:09.835Z", "user": 1, "content_type": 9, "object_id": "9", "object_repr": "Death Stranding", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 34, "fields": {"action_time": "2024-03-15T05:11:20.054Z", "user": 1, "content_type": 8, "object_id": "7", "object_repr": "#soulslike", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 35, "fields": {"action_time": "2024-03-15T05:11:32.091Z", "user": 1, "content_type": 9, "object_id": "10", "object_repr": "Bloodborne", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 36, "fields": {"action_time": "2024-03-15T05:13:33.014Z", "user": 1, "content_type": 9, "object_id": "11", "object_repr": "Horizon Zero Dawn", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 37, "fields": {"action_time": "2024-03-15T05:17:55.118Z", "user": 1, "content_type": 9, "object_id": "12", "object_repr": "Ghost of Tsushima", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 38, "fields": {"action_time": "2024-03-15T10:52:20.397Z", "user": 1, "content_type": 8, "object_id": "8", "object_repr": "#spiderman", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 39, "fields": {"action_time": "2024-03-15T10:52:34.809Z", "user": 1, "content_type": 9, "object_id": "13", "object_repr": "Spider-Man", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 40, "fields": {"action_time": "2024-03-15T10:54:54.785Z", "user": 1, "content_type": 6, "object_id": "4", "object_repr": "Rockstar", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 41, "fields": {"action_time": "2024-03-15T10:55:17.512Z", "user": 1, "content_type": 8, "object_id": "9", "object_repr": "#gta", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 42, "fields": {"action_time": "2024-03-15T10:55:28.354Z", "user": 1, "content_type": 9, "object_id": "14", "object_repr": "Grand Theft Auto The Trilogy", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 43, "fields": {"action_time": "2024-03-15T10:58:54.009Z", "user": 1, "content_type": 7, "object_id": "5", "object_repr": "Horror", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 44, "fields": {"action_time": "2024-03-15T10:59:09.549Z", "user": 1, "content_type": 8, "object_id": "10", "object_repr": "#ужасы", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 45, "fields": {"action_time": "2024-03-15T11:00:49.652Z", "user": 1, "content_type": 9, "object_id": "15", "object_repr": "Until Dawn/Дожить До Рассвета", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 46, "fields": {"action_time": "2024-03-15T11:02:29.488Z", "user": 1, "content_type": 7, "object_id": "6", "object_repr": "Shooter", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 47, "fields": {"action_time": "2024-03-15T11:03:14.870Z", "user": 1, "content_type": 8, "object_id": "11", "object_repr": "#стрелялка", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 48, "fields": {"action_time": "2024-03-15T11:03:39.338Z", "user": 1, "content_type": 9, "object_id": "16", "object_repr": "Uncharted Nathan Drake", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 49, "fields": {"action_time": "2024-03-15T11:05:08.466Z", "user": 1, "content_type": 8, "object_id": "12", "object_repr": "#stels", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 50, "fields": {"action_time": "2024-03-15T11:05:35.257Z", "user": 1, "content_type": 6, "object_id": "5", "object_repr": "NaughtyDog", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 51, "fields": {"action_time": "2024-03-15T11:06:36.806Z", "user": 1, "content_type": 9, "object_id": "17", "object_repr": "The Last of Us Remastered", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 52, "fields": {"action_time": "2024-03-15T11:08:07.948Z", "user": 1, "content_type": 7, "object_id": "7", "object_repr": "Fighting", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 53, "fields": {"action_time": "2024-03-15T11:08:37.657Z", "user": 1, "content_type": 8, "object_id": "13", "object_repr": "#mk", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 54, "fields": {"action_time": "2024-03-15T11:09:17.681Z", "user": 1, "content_type": 9, "object_id": "18", "object_repr": "Mortal Kombat 11", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add content type", "content_type": 4, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change content type", "content_type": 4, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete content type", "content_type": 4, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view content type", "content_type": 4, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add session", "content_type": 5, "codename": "add_session"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change session", "content_type": 5, "codename": "change_session"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete session", "content_type": 5, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view session", "content_type": 5, "codename": "view_session"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add Бренд", "content_type": 6, "codename": "add_brand"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change Бренд", "content_type": 6, "codename": "change_brand"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete Бренд", "content_type": 6, "codename": "delete_brand"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view Бренд", "content_type": 6, "codename": "view_brand"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add Категория", "content_type": 7, "codename": "add_category"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change Категория", "content_type": 7, "codename": "change_category"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete Категория", "content_type": 7, "codename": "delete_category"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view Категория", "content_type": 7, "codename": "view_category"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add Тег", "content_type": 8, "codename": "add_tag"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change Тег", "content_type": 8, "codename": "change_tag"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete Тег", "content_type": 8, "codename": "delete_tag"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view Тег", "content_type": 8, "codename": "view_tag"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add Продукт", "content_type": 9, "codename": "add_product"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change Продукт", "content_type": 9, "codename": "change_product"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete Продукт", "content_type": 9, "codename": "delete_product"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view Продукт", "content_type": 9, "codename": "view_product"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add Пользователь", "content_type": 10, "codename": "add_user"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change Пользователь", "content_type": 10, "codename": "change_user"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete Пользователь", "content_type": 10, "codename": "delete_user"}}, {"model": "auth.permission", "pk": 40, "fields": {"name": "Can view Пользователь", "content_type": 10, "codename": "view_user"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can add Комментарий", "content_type": 11, "codename": "add_comment"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can change Комментарий", "content_type": 11, "codename": "change_comment"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can delete Комментарий", "content_type": 11, "codename": "delete_comment"}}, {"model": "auth.permission", "pk": 44, "fields": {"name": "Can view Комментарий", "content_type": 11, "codename": "view_comment"}}, {"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "products", "model": "brand"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "products", "model": "category"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "products", "model": "tag"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "products", "model": "product"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label": "users", "model": "user"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "comments", "model": "comment"}}, {"model": "sessions.session", "pk": "6u04rmq6c9e1067j6ri195hkbqs2cl73", "fields": {"session_data": ".eJxVjMsOwiAQRf-FtSE8C7h07zeQYQakaiAp7cr479qkC93ec859sQjbWuM28hJnYmcm2el3S4CP3HZAd2i3zrG3dZkT3xV-0MGvnfLzcrh_BxVG_dZgldUiCa-k88YEkYoPqB2RJkzkNYAJToK2IpC3CnNJhXDKeUIsAtn7A9PDOJE:1rkzQy:YQQgN2exUGSTY6BFEF7x0GJpeMDLAaYem104W0ONv34", "expire_date": "2024-03-29T04:44:44.318Z"}}, {"model": "users.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$600000$thVVOVVCQIgsGLuPLWOSEB$Wig1iapD9ik65irkmpb+HkG3OjeY0EoZnUtke8UbWJM=", "last_login": "2024-03-15T04:44:44.307Z", "is_superuser": true, "username": "admin", "first_name": "", "last_name": "", "email": "", "is_staff": true, "is_active": true, "date_joined": "2024-03-05T15:10:23.673Z", "photo": "", "date_birth": null, "phone": null, "adress": null, "groups": [], "user_permissions": []}}, {"model": "users.user", "pk": 5, "fields": {"password": "pbkdf2_sha256$600000$ZVlg1S37mWmjuG838aCI2a$RXXNEJV2sHvLL4nQWV+baqFdqlRC/WQaVKUcQkcEFsQ=", "last_login": "2024-03-10T15:13:25.417Z", "is_superuser": false, "username": "bilbo", "first_name": "Bilbo", "last_name": "Baggens", "email": "swankyyy1@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2024-03-09T07:22:45Z", "photo": "users/photo/NHL.jpg", "date_birth": null, "phone": 375292813237, "adress": null, "groups": [], "user_permissions": []}}, {"model": "products.category", "pk": 1, "fields": {"name": "Action", "description": "", "url": "action"}}, {"model": "products.category", "pk": 2, "fields": {"name": "Sport", "description": "", "url": "sport"}}, {"model": "products.category", "pk": 3, "fields": {"name": "Adventures", "description": "", "url": "adventures"}}, {"model": "products.category", "pk": 4, "fields": {"name": "RPG", "description": "", "url": "rpg"}}, {"model": "products.category", "pk": 5, "fields": {"name": "Horror", "description": "", "url": "horror"}}, {"model": "products.category", "pk": 6, "fields": {"name": "Shooter", "description": "", "url": "shooter"}}, {"model": "products.category", "pk": 7, "fields": {"name": "Fighting", "description": "", "url": "fighting"}}, {"model": "products.brand", "pk": 1, "fields": {"name": "ea-sports", "description": ""}}, {"model": "products.brand", "pk": 2, "fields": {"name": "Ubisoft", "description": ""}}, {"model": "products.brand", "pk": 3, "fields": {"name": "Sony", "description": ""}}, {"model": "products.brand", "pk": 4, "fields": {"name": "Rockstar", "description": ""}}, {"model": "products.brand", "pk": 5, "fields": {"name": "NaughtyDog", "description": ""}}, {"model": "products.tag", "pk": 1, "fields": {"name": "#god-of-war"}}, {"model": "products.tag", "pk": 3, "fields": {"name": "#fifa"}}, {"model": "products.tag", "pk": 4, "fields": {"name": "#вдвоем"}}, {"model": "products.tag", "pk": 5, "fields": {"name": "#zombie"}}, {"model": "products.tag", "pk": 6, "fields": {"name": "#future"}}, {"model": "products.tag", "pk": 7, "fields": {"name": "#soulslike"}}, {"model": "products.tag", "pk": 8, "fields": {"name": "#spiderman"}}, {"model": "products.tag", "pk": 9, "fields": {"name": "#gta"}}, {"model": "products.tag", "pk": 10, "fields": {"name": "#ужасы"}}, {"model": "products.tag", "pk": 11, "fields": {"name": "#стрелялка"}}, {"model": "products.tag", "pk": 12, "fields": {"name": "#stels"}}, {"model": "products.tag", "pk": 13, "fields": {"name": "#mk"}}, {"model": "products.product", "pk": 3, "fields": {"name": "FC24", "short_description": "С EA SPORTS FC™ 24 начинается будущее футбольных симуляторов. Этот инновационный проект позволит вам сполна насладиться футбольным азартом, а также встретить лучших игроков из крупнейших клубов, лиг и турниров мира.", "description": "<h4>Новые технологии</h4>\r\n\r\n<p><strong>HyperMotionV</strong><br />\r\nHyperMotionV использует данные из более чем 180 матчей профессиональных футболистов и футболисток, чтобы досконально воссоздавать движения игроков и с точностью имитировать происходящее на реальном поле.</p>\r\n\r\n<p><strong>PlayStyles</strong><br />\r\nОптимизированная Opta технология стилей игры улучшает аутентичность виртуальных персонажей, трансформируя данные реальных игроков, собранные Opta и другими источниками, в коронные умения, которые делают каждого цифрового игрока уникальным и правдоподобным.</p>\r\n\r\n<p><strong>Движок Frostbite&trade;</strong><br />\r\nУсовершенствованный движок Frostbite&trade; в мельчайших подробностях воссоздаёт самую популярную игру в мире. Благодаря ему вы сможете с головой погрузиться в каждый матч.</p>\r\n\r\n<h4>Режимы игры EA SPORTS FC&trade; 24</h4>\r\n\r\n<p><strong>Создайте команду своей мечты в Ultimate Team</strong><br />\r\nЕщё больше игроков из прошлого и настоящего, включая звёзд женского футбола, а также новые способы персонализировать клуб на поле и за его пределами. Режим Ultimate Team&trade; погружает игроков в мир футбола благодаря материалам, созданным на основе реальных выступлений футболистов и матчей таких турниров, как Лига чемпионов УЕФА.</p>\r\n\r\n<p><strong>Выберите свой путь в испытаниях карьеры</strong><br />\r\nВпишите своё имя в историю футбола в карьере игрока или менеджера &mdash; станьте частью крупнейших турниров и лиг мира, контролируя каждый шаг на пути к успеху.</p>\r\n\r\n<p><strong>Система полного управления</strong><br />\r\nВоплотите собственную футбольную философию. Новейшая система полного управления позволит вам выработать уникальную стратегию игры. Пополняйте тренерский состав и добивайтесь лучших результатов команды на поле, а также изучайте отчёты перед матчем, чтобы воспользоваться слабостями соперников.</p>\r\n\r\n<p>&nbsp;</p>", "poster": "media/posters/fc-24-ps4-600x600.webp", "age_limit": false, "is_published": true, "aviable": true, "quantity": 5, "price": "124.00", "url": "fc24", "brand": 1, "year": 2014, "categories": [2], "tag": [3]}}, {"model": "products.product", "pk": 4, "fields": {"name": "God Of War", "short_description": "Все изменилось. Закончился круговорот насилия, недоверия и обмана. Завершена череда ошибок, связанных с богами греческого пантеона, – злополучное соглашение с Аресом, убийство семьи, ненависть и безумие, а в итоге грандиозное разрушение Олимпа. Ярость Кратоса стала причиной множества бед. Но что буд", "description": "<p>Характеристики</p>\r\n\r\n<p>Месть богам Олимпа осталась в далеком прошлом. Теперь Кратос ведет обычную жизнь в суровом северном краю. Но теперь ему предстоит не просто выживать самому, но и научить подрастающего сына справляться с любой угрозой. Это поразительное переосмысление истории God of War сочетает в себе все отличительные особенности культовой серии &ndash; свирепые сражения, грандиозные схватки с боссами и невероятный размах происходящего &ndash; и подкрепляет их мощным и трогательным сюжетом, привносящем новые краски в мир Кратоса.</p>\r\n\r\n<p>Кратосу вновь выпал шанс стать достойным отцом. Обучая и защищая Атрея, он должен научиться обуздывать свою ярость и бороться с опасностями окружающего мира с оглядкой на своего спутника.</p>\r\n\r\n<p>Мрамор и строгая архитектура Олимпа остались в прошлом. На смену им пришли темные леса, высокие горы и мрачные пещеры, полные могучих и опасных существ. Здесь действуют свои законы и властвуют незнакомые силы, а за каждым поворотом ждут неожиданные и захватывающие открытия.</p>\r\n\r\n<p>Расположенная за плечом персонажа свободная камера отправит вас в самое сердце битвы. Кратосу предстоит столкнуться с невероятными порождениями скандинавской мифологии, а новое оружие и способности в сочетании с характерными чертами знаменитой серии станут новым словом в жанре экшенов.</p>", "poster": "media/posters/God-Of-War-PS4-7069-600x600.webp", "age_limit": false, "is_published": true, "aviable": true, "quantity": 4, "price": "82.00", "url": "god-of-war", "brand": 2, "year": 2022, "categories": [1], "tag": [1]}}, {"model": "products.product", "pk": 5, "fields": {"name": "Ratchet & Clank", "short_description": "Присоединяйтесь к очаровательному Ломбаксу и его другу роботу в новой игре, которая пересказывает насыщенную историю знакомства отважных героев. Будь вы давним поклонником Рэтчета или новичком в этой серии игр, приготовьтесь к незабываемому путешествию по вселенной в их первом космическом приключени", "description": "<p>Приключения Рэтчета и Кланка нового поколения получили все лучшие качества легендарного хита эпохи PlayStation 2, а заодно немало новенького: вас ждут современное разрешение 1080р, высококачественные сюжетные ролики (в том числе из анимационного фильма), дополнительные боссы, места действия, виды оружия и многое другое. Вместе с любимыми героями, а также их старыми и новыми друзьями вы отправитесь в самое захватывающее приключение - теперь на PlayStation 4!</p>\r\n\r\n<p>Знаменитые герои снова в строю: Рэтчет, Кланк и капитан Кварк готовы спасать галактику рука об руку с новичками серии! Сюжет игры Ratchet &amp; Clank не только расскажет о похождениях знаменитых напарников, но и больше поведает о них самих. Улучшенный геймплей, новые планеты, боссы, боевые сцены, оружие и гаджеты - этому приключению не будет равных! Захватывающий экшн - платформер, щедро сдобренный фирменным юмором, станет еще лучше на PlayStation 4</p>", "poster": "media/posters/Ratchet---Clank-PS4-4972-600x600.webp", "age_limit": false, "is_published": true, "aviable": true, "quantity": 23, "price": "78.00", "url": "ratchet-clank", "brand": 3, "year": 2016, "categories": [3], "tag": [4]}}, {"model": "products.product", "pk": 6, "fields": {"name": "Knack 2", "short_description": "Окажитесь в очаровательном мире наполненном яркими местами, испытаниями, динамичными сражениями и интересными головоломками, где хорошо известный герой Кнак приобретает новые силы и стремится спасти планету во второй раз.", "description": "<p>Невероятная графика<br />\r\nВас ждут удивительные персонажи и восхитительный мир, 90 минут сюжетных видеороликов и уникальные очаровательные герои.</p>\r\n\r\n<p>Рука помощи<br />\r\nВаш друг в любой момент сможет присоединиться к вашему приключению. Веселитесь в совместном режиме игры, выполняя особые комбинации приемов и опрокидывая врагов. Более того, если захочется, украдите добычу вашего товарища, чтобы спровоцировать небольшую дружескую потасовку.</p>\r\n\r\n<p>Между прошлым и будущим<br />\r\nСобирайте реликвии, чтобы стать сильнее и проложить путь сквозь орды гоблинов, роботов и других противников. Нэк умеет создавать щиты, парировать атаки противника и даже использовать части собственного тела в качестве бумеранга. Запрыгивайте в танки и другие гигантские транспортные средства, чтобы получить преимущество в огневой мощи, а также не забывайте подбирать предметы, благодаря которым Нэк может принимать другие формы и получать новые невероятные способности.</p>\r\n\r\n<p>Веселье для всех<br />\r\nДинамичный игровой процесс контролируется простым и интуитивным управлением, а искусственный интеллект противников не даст заскучать игрокам любого уровня подготовки.</p>", "poster": "media/posters/Knack-2-PS4-9715-600x600.webp", "age_limit": false, "is_published": true, "aviable": true, "quantity": 6, "price": "98.00", "url": "knack-2", "brand": 3, "year": 2018, "categories": [1], "tag": [4]}}, {"model": "products.product", "pk": 7, "fields": {"name": "Days Gone", "short_description": "Вам предстоит влезть в шкуру бывшего преступника, байкера Дикона Сейнт-Джона – бродяги, охотника за головами, странствующего атавизма человечества.", "description": "<h4>Об игре</h4>\r\n\r\n<p>Объездите мир, живущий по волчьим законам и опустошенный смертоносной пандемией, играя за байкера и охотника за головами Дикона Сент-Джона.</p>\r\n\r\n<p>Верхом на верном мотоцикле преодолевайте опасности на разбитой дороге, в числе которых толпы безумных фриков и ужасающих людей.</p>\r\n\r\n<h4>Ключевые особенности</h4>\r\n\r\n<p><strong>Поразительный мир</strong><br />\r\nСеверо-западное побережье Тихого океана с его величественными лесами, необъятными лугами, заснеженными горными вершинами и пустынными вулканическими плато настолько же прекрасно, насколько и опасно. Исследуйте горы, пещеры, ущелья и небольшие поселения, на протяжении миллионов лет страдавшие от извержений.</p>\r\n\r\n<p><strong>Жестокие схватки</strong><br />\r\nНа этих землях нередко можно встретить агрессивно настроенных бандитов или толпы фриков, поэтому вы должны уметь находить применение своим ловушкам, оружию и улучшаемым навыкам, чтобы остаться в живых. И, конечно же, не забывайте о своем номадском байке, бесценном средстве передвижения по этим обширным землям.</p>\r\n\r\n<p><strong>Постоянно меняющееся окружение</strong><br />\r\nСадитесь за руль верного мотоцикла Дикона и исследуйте живой мир с постоянно меняющимися погодными условиями, сменой дня и ночи, эволюционирующими фриками, которые приспосабливаются к окружению &ndash; и немногими выжившими.</p>\r\n\r\n<p><strong>Увлекательная история</strong><br />\r\nПогрузитесь в мощную историю об отчаянии, предательстве и сожалении, где вы возьмете на себя роль Дикона Сент-Джона, который пытается увидеть хотя бы проблеск надежды, чтобы оправиться от тяжелой утраты. Что делает нас людьми в ежедневной борьбе за выживание?</p>", "poster": "media/posters/Days-Gone-Жизнь-после-PS4-8396-600x600.webp", "age_limit": false, "is_published": true, "aviable": true, "quantity": 12, "price": "98.00", "url": "days-gone", "brand": 3, "year": 2019, "categories": [1, 4], "tag": [5]}}, {"model": "products.product", "pk": 8, "fields": {"name": "Detroit Стать человеком", "short_description": "Перенеситесь в Детройт 2038 года, ставший мегаполисом ближайшего будущего, где высокоразвитые андроиды служат человечеству, в чем и состоит вся природа их существования. Но скоро все изменится.", "description": "<p>Detroit: Become Human (PS4) - это новый эксклюзивный проект для PlayStation 4 разрабатываемый в недрах студии Quantic Dream. Эта компания подарила нам такие известные проекты, как Heavy Rain и Beyond Two Souls.</p>\r\n\r\n<p>Переместитесь в город будущего под названием Детройт. Здесь нашли свое место самые развитые технологии, среди которых, особняком стоят роботизированные механизмы - андройды. Станьте очевидцами того, как этот новый мир падет в пучины хаоса во время путешествий девушки-андройда под именем Кара в поисках своего места в жестоком людском обществе.</p>\r\n\r\n<p>Окажите собственное влияние на амбициозную сюжетную линию, где от ваших решений сформируется не только ваша судьба, но и будущее всего города. Раскройте смысл того, что действительно значит быть человеком от лица настоящего аутсайдера и попытайтесь понять мир людей сквозь призму машин.</p>\r\n\r\n<p>Перенеситесь в Детройт 2038 года, ставший мегаполисом ближайшего будущего, где высокоразвитые андроиды служат человечеству, в чем и состоит вся природа их существования. Но скоро все изменится...</p>\r\n\r\n<p>Примерьте на себя роли трех различных персонажей-андроидов и наблюдайте, как этот дивный новый мир балансирует на грани хаоса. Ваши поступки резко изменяют ход напряженного сложного повествования. В игре доступны тысячи вариантов выбора и десятки концовок. Каким окажется ваше будущее Детройта?</p>\r\n\r\n<p>Играйте свою роль в захватывающем повествовании.</p>\r\n\r\n<p>Окунитесь в мир, где моральные дилеммы и сложные решения могут превратить рабов-андроидов в меняющих мир революционеров. Узнайте, что значит быть человеком с точки зрения настоящего отброса общества &ndash; и взгляните на мир глазами машины.</p>\r\n\r\n<p>Их жизни, ваши решения.</p>\r\n\r\n<p>Определите, как сложится невероятная история, где ваши поступки повлияют не только на судьбы трех основных персонажей, но и на будущее всего Детройта.</p>\r\n\r\n<p>От того, как вы будете управлять Кэрой, Коннором и Маркусом, будут зависеть жизни многих окружающих персонажей &ndash; и если кто-либо из них решится заплатить самую высокую цену и пожертвовать собой, история продолжится...</p>\r\n\r\n<p>Главные персонажи</p>\r\n\r\n<p>Управляйте тремя героями, которым выпадет возможность изменить судьбы андроидов и человечества&hellip;</p>\r\n\r\n<p>Коннор (Актер &ndash; Брайан Дечарт (&laquo;Настоящая кровь&raquo;, &laquo;Оставшиеся&raquo;)</p>\r\n\r\n<p>На чьей вы стороне?</p>\r\n\r\n<p>Станьте прототипом совершенного андроида, расследуйте преступления и разбирайтесь в беспорядках, происходящих в оживленном мегаполисе будущего, Детройте.</p>\r\n\r\n<p>Коннор занимает должность следователя особого отдела полиции, и его цель &ndash; помогать департаменту полиции Детройта выслеживать &laquo;девиантов&raquo; &ndash; андроидов, у которых сбились программные установки, после чего они отказались подчиняться своим хозяевам или стали преступниками.</p>\r\n\r\n<p>Как вы решите себя вести: останетесь хладнокровной и расчетливой машиной, беспрекословно выполняя свои обязанности, или начнете сочувствовать участи собратьев-андроидов и сомневаться в правильности своего дела?</p>\r\n\r\n<p>Маркус (Актер &ndash; Джесси Уильямс (&laquo;Анатомия страсти&raquo;, &laquo;Хижина в лесу&raquo;)</p>\r\n\r\n<p>Как не переступить черту в борьбе за свободу?</p>\r\n\r\n<p>Вызовите искру, от которой может вспыхнуть пламя восстания андроидов, играя за Маркуса, еще одного девианта, которому удалось вырваться из плена своего кода.</p>\r\n\r\n<p>Сбежав от хозяина и присоединившись к растущей подпольной группе инакомыслящих, Маркус возглавляет борьбу за освобождение андроидов Детройта. Оставляя решительное послание людям, выберет ли он гуманный путь... или прибегнет к насилию?</p>\r\n\r\n<p>Кэра (Актриса &ndash; Вэлори Керри (&laquo;Сумерки. Сага: Рассвет &ndash; Часть 2&raquo;, &laquo;Ведьма из Блэр: Новая глава&raquo;)</p>\r\n\r\n<p>Что значит быть человеком?</p>\r\n\r\n<p>Посмотрите на обнищавшие захудалые районы Детройта глазами нового андроида Кэры, которой удалось избежать программирования.</p>\r\n\r\n<p>После своего побега вместе с невинной девочкой, за которой она поклялась присматривать, Кэра теперь считается девиантом. Вы должны помочь ей свыкнуться с неравенством в этом жестоком мире и найти в нем свое место... или постараться изменить его, чтобы защитить ее суррогатного ребенка.</p>", "poster": "media/posters/Detroit-Стать-человеком-PS4-7294-600x600.webp", "age_limit": false, "is_published": true, "aviable": true, "quantity": 7, "price": "76.00", "url": "detroit-stat-chelovekom", "brand": 3, "year": 2017, "categories": [1], "tag": [6]}}, {"model": "products.product", "pk": 9, "fields": {"name": "Death Stranding", "short_description": "Отправляйтесь в необычное приключение от легендарного разработчика Хидео Кодзимы на PlayStation 4. Возьмите под свой контроль рабочего Сэма Бриджеса, который покоряет смертельный и загадочный мир, полный посланников смерти. Отважьтесь преодолеть мир, трансформированный Петлей смерти. Держите в своих", "description": "<p>В ближайшем будущем земной шар сотрясут таинственные взрывы, которые станут причиной возникновения ряда сверхъестественных явлений, известных как Выход смерти. Миссия по спасению человечества ляжет на плечи Сэма Портера Бриджеса, которому предстоит отправиться в путь по разоренным пустошам, невзирая на присутствие потусторонних существ и постоянную угрозу массового уничтожения.</p>\r\n\r\n<p>Cпасти цивилизацию Отправляйтесь в путешествие на грани жизни и смерти и попытайтесь спасти цивилизацию, покорив загадочный разрушенный мир, полный посланников смерти и сверхъестественных опасностей. Отважьтесь преодолеть земли, трансформированные Петлей смерти, удерживая в руках бессвязные остатки нашего будущего, в надежде восстановить связь между осколками мира.</p>", "poster": "media/posters/Death-Stranding-PS4-9139-600x600.webp", "age_limit": false, "is_published": true, "aviable": true, "quantity": 78, "price": "134.00", "url": "death-stranding", "brand": 3, "year": 2022, "categories": [1, 3], "tag": [5, 6]}}, {"model": "products.product", "pk": 10, "fields": {"name": "Bloodborne", "short_description": "Взгляните в лицо своим страхам и попытайтесь отыскать ответы в древнем Ихарнаме, где свирепствует странная эпидемия, распространяющаяся словно лесной пожар.", "description": "<h4>Об игре</h4>\r\n\r\n<p>Одинокий путник. Проклятый город. Смертоносная тайна, уничтожающая все, к чему она прикоснется. Взгляните в лицо своим страхам на улицах загнивающего Ярнама - проклятого места, разъедаемого ужасным, всепоглощающим мором. Исследуйте его самые темные уголки, сражайтесь за жизнь холодным и огнестрельным оружием и раскройте леденящие душу секреты. Возможно, они спасут вам жизнь.</p>\r\n\r\n<h4>Ключевые особенности</h4>\r\n\r\n<p>Отправляйтесь в путешествие, где на каждом шагу вас подстерегают жуткие порождения кошмаров.</p>\r\n\r\n<p>В вашем распоряжении разнообразный арсенал - от ружей до зазубренных тесаков. Но чтобы одолеть хитрых и ловких тварей, населяющих город, потребуется куда больше: смекалка, стратегия и молниеносные рефлексы.</p>\r\n\r\n<p>Настоящий ролевой экшен нового поколения. Вас ждут тщательно проработанные улицы готического города, потрясающая детализация, атмосферное освещение и продвинутые сетевые режимы, использующие все возможности PlayStation 4.</p>", "poster": "media/posters/Bloodborne-PS4-4339-600x600.webp", "age_limit": false, "is_published": true, "aviable": true, "quantity": 23, "price": "87.00", "url": "bloodborne", "brand": 3, "year": 2022, "categories": [4], "tag": [5, 7]}}, {"model": "products.product", "pk": 11, "fields": {"name": "Horizon Zero Dawn", "short_description": "Наиболее полное издание знаменитой игры. В величественном и прекрасном постапокалиптическом мире, где природа завоевала руины забытых цивилизаций, остатки человечества объединились в примитивные племена охотников-собирателей. Власть над новой дикой средой перешла к машинам, ужасным механическим созд", "description": "<p>Путешествуйте по миру, наполненному странными артефактами и заброшенными руинами, чтобы узнать его самые сокровенные тайны. Каким образом машины подчинили себе этот мир? Что произошло с цивилизацией, которая была здесь раньше? Ответы могут предопределить судьбу не только самой Элой, но и всего человечества.</p>\r\n\r\n<p>Состав издания базовая версия игры, сюжетное дополнение The Frozen Wilds, игровые предметы: набор племени Карха, набор племени Банук, набор племени Нора, цифровой альбом иллюстраций, тема для меню PS4.</p>\r\n\r\n<p>Сюжетное дополнение The Frozen Wilds. За горами на севере расположены границы племени Банук, и суровая природа этих мест подвергнет нелегкому испытанию любого, кто осмелится их перейти. Но теперь на ледяной пустоши возникла новая угроза, а для Элой &ndash; новая тайна, которую ей предстоит изучить. Удивительный мир Horizon Zero Dawn становится еще больше. В дополнительном приключении The Frozen Wilds вас ждут новый регион, новая увлекательная сюжетная линия, новые виды смертоносных машин и новые побочные задания.</p>", "poster": "media/posters/Horizon-Zero-Dawn-Complete-Edition-PS4-9269-600x600.webp", "age_limit": false, "is_published": true, "aviable": true, "quantity": 13, "price": "56.00", "url": "horizon-zero-dawn", "brand": 2, "year": 2014, "categories": [1, 4], "tag": [6]}}, {"model": "products.product", "pk": 12, "fields": {"name": "Ghost of Tsushima", "short_description": "Конец XIII века. Монгольская империя опустошила уже не одно государство и стремится покорить весь Восток. От внутренних территорий Японии захватчиков отделяет лишь остров Цусима.", "description": "<p>Первая волна монгольского вторжения вот-вот разорит остров, но отважный самурай Дзин Сакай готов пойти на всё, чтобы защитить родную землю.</p>\r\n\r\n<p>Режиссёрская версия &mdash; это максимально полный вариант игры &laquo;Призрак Цусимы&raquo; со всеми вышедшими дополнительными материалами:</p>\r\n\r\n<p>1 очко техники;<br />\r\nЦифровой мини-артбук;<br />\r\nОберег &laquo;Милость Хатимана&raquo;;<br />\r\nКосметический набор &laquo;Герой Цусимы&raquo;: золотая маска, набор мечника, конь, седло. Режим совместной игры &laquo;Легенды&raquo;;<br />\r\nКомментарии разработчиков: известный японский историк о том, как мир &laquo;Призрака Цусимы&raquo; соотносится с реальными событиями, которые легли в основу игры;<br />\r\nДополнение &laquo;Остров Ики&raquo;: новая история, мини-игры, враги и многое другое.</p>", "poster": "media/posters/Ghost-of-Tsushima-Призрак-Цусимы-Director-s-Cut-PS4-10028-600x600.webp", "age_limit": false, "is_published": true, "aviable": true, "quantity": 6, "price": "88.00", "url": "ghost-of-tsushima", "brand": 3, "year": 2019, "categories": [1, 3, 4], "tag": [7]}}, {"model": "products.product", "pk": 13, "fields": {"name": "Spider-Man", "short_description": "Приобретите издание «Игра года» и получите доступ к трем сюжетным главам дополнения Marvel’s Spider-Man: «Город, который никогда не спит», включающим дополнительные задания и испытания, новых врагов из вселенной Человека-паука и возможность разблокировать дополнительные костюмы.", "description": "<p>Звезда Marvel&#39;s Spider-Man &ndash; один из самых знаменитых супергероев планеты. Помимо акробатических трюков, непредсказуемых приемов и полетов на паутине, которыми славится Человек-паук, вас ждут новые элементы, которых еще не было в играх про этого персонажа. Перемещение с помощью паркура и интерактивное окружение, новые боевые способности и битвы, достойные киноблокбастеров, &ndash; такого Человека-паука вы еще не видели!</p>\r\n\r\n<p>Объединив усилия, Marvel и Insomniac Games придумали новую историю про Человека-паука, непохожего на героя, которого вы знаете по комиксам и фильмам. Этот Питер Паркер &ndash; опытный борец с преступными бандами, угрожающими Нью-Йорку. Он постоянно балансирует на грани, одновременно пытаясь привести в порядок свою личную жизнь, построить карьеру и защитить девять миллионов ньюйоркцев, чьи судьбы зависят от его решений.</p>\r\n\r\n<p>Станьте Человеком-пауком<br />\r\nПитер Паркер &ndash; опытный Человек-паук, вот уже несколько лет сражающийся с преступниками. Он в совершенстве владеет паучьим чутьем, динамичными навыками, акробатическими приемами и облачен в новый костюм.</p>\r\n\r\n<p>Узнайте оригинальную историю<br />\r\nЭто совершенно новая вселенная Человека-паука, в которой знакомые герои предстанут в необычном свете. Ведите сложную двойную жизнь в качестве подростка с великой силой&hellip; и сложными взаимоотношениями с окружающими.</p>\r\n\r\n<p>Прыгайте по открытому миру<br />\r\nСвободно летайте по Нью-Йорку вселенной Marvel, участвуйте в эпических сражениях, следите за развитием увлекательного сюжета и знакомьтесь с интересными персонажами.</p>", "poster": "media/posters/Spider-Man-GOTY-PS4-9726-600x600.webp", "age_limit": false, "is_published": true, "aviable": true, "quantity": 7, "price": "214.00", "url": "spider-man", "brand": 3, "year": 2021, "categories": [1, 3], "tag": [8]}}, {"model": "products.product", "pk": 14, "fields": {"name": "Grand Theft Auto The Trilogy", "short_description": "Сыграйте в классическую трилогию Grand Theft Auto, определившую целый жанр видеоигр. Встречайте обновленные Grand Theft Auto III, Grand Theft Auto: Vice City и Grand Theft Auto: San Andreas для нового поколения.", "description": "<h3>Три легендарных города, три захватывающих истории</h3>\r\n\r\n<p>В игру добавлено множество улучшений самого разного плана, в том числе новая система освещения и повышенная детализация, текстуры высокого разрешения, увеличенная дальность прорисовки, управление и прицеливание в стиле Grand Theft Auto V и многое, многое другое. Никогда прежде ваш любимый мир не выглядел таким живым и реалистичным!</p>\r\n\r\n<h3>Grand Theft Auto: The Trilogy &ndash; The Definitive Edition включает:</h3>\r\n\r\n<p><strong>Grand Theft Auto III</strong><br />\r\nВсе начинается в Либерти-Сити. Grand Theft Auto III позволяет идти куда угодно и делать все, что вам захочется. Безжалостный криминальный мир станет вашим, если у вас хватит смелости его покорить.</p>\r\n\r\n<p><strong>Grand Theft Auto: Vice City</strong><br />\r\nДобро пожаловать в 1980-е. Из десятилетия огромных причесок и вычурных костюмов в пастельных тонах пришла история о том, как один человек вознесся на вершину криминального мира. Grand Theft Auto возвращается. Проживите историю Томми Версетти, полную предательств, возмездия и неоновых огней тропического города, таящего множество возможностей.</p>\r\n\r\n<p><strong>Grand Theft Auto: San Andreas</strong><br />\r\nЗа окном &ndash; начало 1990-х. После того, как пара копов повесила на Си-Джея убийство, которого он не совершал, он должен отправиться в путешествие по всему Сан-Андреасу, чтобы обезопасить своих близких и установить контроль над улицами городов штата.</p>", "poster": "media/posters/Grand-Theft-Auto-The-Trilogy-Definitive-Edition-PS4-10115-600x600.webp", "age_limit": false, "is_published": true, "aviable": true, "quantity": 4, "price": "50.00", "url": "grand-theft-auto-the-trilogy", "brand": 4, "year": 2022, "categories": [1], "tag": [9]}}, {"model": "products.product", "pk": 15, "fields": {"name": "Until Dawn/Дожить До Рассвета", "short_description": "Когда восемь друзей оказываются отрезаны от мира в уединенной горной хижине, реальность очень быстро оборачивается кошмаром, ведь, судя по всему, они там не одни.", "description": "<h4>Об игре</h4>\r\n\r\n<p>Когда восемь друзей оказываются отрезаны от мира в уединенной горной хижине, реальность очень быстро оборачивается кошмаром, ведь, судя по всему, они там не одни. Страх и напряжение толкают людей на необдуманные действия, когда решаются вопросы жизни и смерти.</p>\r\n\r\n<p>Любой выбор каждого из восьми героев поневоле, каким бы простым и несущественным он ни казался на первый взгляд, может стать важным звеном уникальной цепи событий, ведущей к непредсказуемому финалу.</p>\r\n\r\n<p>Интерактивный триллер &laquo;Дожить до рассвета&raquo; виртуозно объединяет великолепную актерскую игру голливудских звезд, в числе которых Хайден Пенеттьери (&laquo;Герои&raquo;, &laquo;Нэшвилл&raquo;), и беспрецедентную мощь консоли нового поколения PlayStation 4.</p>\r\n\r\n<h4>Ключевые особенности</h4>\r\n\r\n<p>В домике, затерянном в горах, восемь друзей, за которыми охотится убийца, отчаянно цепляются за жизнь. То, как вы построите отношения между героями, в сочетании с их собственным восприятием происходящего сформирует уникальную историю, соавтором которой вы сможете с полным правом назвать себя.</p>\r\n\r\n<p>В работе над игрой приняли участие звезды Голливуда, такие как Хайден Пенеттьери (&laquo;Герои&raquo;, &laquo;Нэшвилл&raquo;) и Рами Малек (&laquo;Жажда скорости&raquo;, &laquo;Ночь в музее&raquo;).</p>\r\n\r\n<p>Принятые решения прямо влияют на то, как на ваших глазах строится сюжетная линия, ведь каждая история в &laquo;Дожить до рассвета&raquo; будет уникальной. Эти решения, большие и малые, простые и сложные, определят судьбу героев. Знаменитый эффект бабочки в действии - даже самое тривиальное событие может привести к возникновению смертельной угрозы.</p>", "poster": "media/posters/untildawn-ps4-600x600.webp", "age_limit": false, "is_published": true, "aviable": true, "quantity": 12, "price": "124.00", "url": "until-dawndozhit-do-rassveta", "brand": 3, "year": 2014, "categories": [1, 5], "tag": [10]}}, {"model": "products.product", "pk": 16, "fields": {"name": "Uncharted Nathan Drake", "short_description": "Окунитесь в захватывающие приключения в знаменитой серии игр. Отправляйтесь в опасные путешествия по всему земному шару вместе с Натаном Дрейком и совершите удивительные открытия. Вас ждут незабываемые встречи: Дрейк часто рискует жизнью, вместе с друзьями вступая в гонку с безжалостными врагами, чт", "description": "<p>История Натана Дрейка, которая началась в рыбацкой лодке у побережья Панамы, со временем стала синонимом слова &quot;приключение&quot;. Uncharted: Drake&#39;s Fortune, Uncharted 2: Among Thieves и &quot;Uncharted 3: Иллюзии Дрейка&quot; - три невероятно популярные игры впервые собраны вместе и обновлены для PS4.</p>\r\n\r\n<p>В роли Натана Дрейка вы пройдете по следам легенд, путешествуя по всему земному шару. Разыщите сказочный золотой город Эльдорадо, пользуясь заметками, оставленными самим сэром Фрэнсисом Дрейком. Повторите роковое путешествие Марко Поло через Гималаи. Найдите Атлантиду песков, о которой мечтал Лоуренс Аравийский.</p>", "poster": "media/posters/Uncharted-Nathan-Drake-Collection-Натан-Дрейк-Коллекция-PS4-9731-600x600.webp", "age_limit": false, "is_published": true, "aviable": true, "quantity": 12, "price": "45.00", "url": "uncharted-nathan-drake", "brand": 2, "year": 2020, "categories": [1, 6], "tag": [11]}}, {"model": "products.product", "pk": 17, "fields": {"name": "The Last of Us Remastered", "short_description": "Захватывающая история, покорившая сердца многих геймеров, воплощенная в усовершенствованной графике (благодаря возможностям консоли PlayStation 4 мир игры стал еще более богатым на детали, ярким и живым), а также все дополнительные материалы, доступные ранее только обладателям сезонного абонемента,", "description": "<p>За двадцать лет эпидемии цивилизованный мир сильно изменился. Население США почти полностью уничтожено. Выжившие сбиваются в банды и убивают всякого чужака &ndash; ради оружия, продовольствия, любой хоть сколько-нибудь ценной вещи. Именно в такой обстановке суровый наемник Джоэл и 14-летняя девочка Элли отправляются в долгое путешествие по некогда великой стране</p>\r\n\r\n<p>Naughty Dog, знаменитая студия, создавшая серию Uncharted, представляет экшен с элементами триллера &laquo;Одни из нас&raquo;. Только на PlayStation вы ощутите, сколь жесток мир Джоэла и Элли, увидите, как в ходе вынужденных странствий будут меняться их отношения. Новые технологии помогли разработчикам создать пугающе реалистичный мир, вдруг сбросивший хрупкие оковы цивилизации. &laquo;Одни из нас&raquo; &ndash; это яркие персонажи, сложный, захватывающий сюжет и, конечно, роскошная графика.</p>\r\n\r\n<p>Обновленная игровая графика: разрешение 1080p, улучшенные текстуры, модели героев, тени и освещение, различные графические усовершенствования.</p>\r\n\r\n<p>Эксклюзивные аудиокомментарии ко всем внутриигровым видероликам, записанные креативным директором и сценаристом игры Нилом Дракманном, режиссером Брюсом Стрейли, актером Троем Бейкером, озвучившим Джоэла, и обладательницей премии BAFTA актрисой Эшли Джонсон, озвучившей Элли.</p>\r\n\r\n<p>Станьте и охотником, и жертвой. Узнайте, что значит быть безжалостным наемником, компанию которому по воле судьбы составила храбрая девочка-подросток. Вам предстоит опасное путешествие по опустевшим, но смертельно опасным Соединенным Штатам Америки</p>\r\n\r\n<p>Вас ждет напряженный сюжет и яркие персонажи. &laquo;Одни из нас&raquo; потрясающе увлекательна, благодаря опыту и таланту сотрудников знаменитой компании Naughty Dog.</p>\r\n\r\n<p>Исследуйте разоренные, обезлюдевшие города &ndash; заброшенные памятники былому величию человечества средь шумных лесов и безмолвных пустошей дикой природы.</p>\r\n\r\n<p>Оценивайте свои силы и продумывайте тактику каждого столкновения с врагом. Система Balance of Power AI корректирует поведение персонажей в зависимости от того, на чьей стороне преимущество &ndash; вашей или ваших противников. Поведение врагов напрямую зависят от их численности, внезапности нападения и того, какое оружие использует Джоэль.</p>\r\n\r\n<p>Учитесь выживать &ndash; добывайте пищу, мастерите оружие из подручных материалов и сражайтесь с другими выжившими за боеприпасы и ресурсы.</p>\r\n\r\n<p>В комплекте - обновленная версия игры &laquo;Одни из нас&raquo;; сюжетное дополнение &laquo;Одни из нас: Оставшиеся позади&raquo;; набор карт для мультиплеера &laquo;Заброшенные территории&raquo;; набор карт для мультиплеера &laquo;Возвращенные территории&raquo; (Reclaimed Territories).</p>", "poster": "media/posters/The-Last-of-Us-Remastered-Одни-из-нас-PS4-5421-600x600.webp", "age_limit": false, "is_published": true, "aviable": true, "quantity": 6, "price": "70.00", "url": "the-last-of-us-remastered", "brand": 5, "year": 2018, "categories": [1], "tag": [5, 10, 11, 12]}}, {"model": "products.product", "pk": 18, "fields": {"name": "Mortal Kombat 11", "short_description": "Полная версия MK11! Управляйте защитниками Земного царства в этих двух частях одобренного критиками сюжетного режима, чтобы помешать Кронике повернуть время вспять и переписать историю.", "description": "<h4>Об игре</h4>\r\n\r\n<p>Полная версия MK11! Управляйте защитниками Земного царства в этих двух частях одобренного критиками сюжетного режима, чтобы помешать Кронике повернуть время вспять и переписать историю. В битве за спасение всего живого проверяется дружба и рождаются новые союзы. Список персонажей состоит из 37 бойцов, включая Рейна, Милину и Рэмбо.</p>\r\n\r\n<p>Mortal Kombat 11 демонстрирует каждый френдшип, каждое кровавое фаталити или душераздирающий фатальный удар как никогда раньше. Вы будете настолько глубоко погружены в бой, что почувствуете эту боль!</p>", "poster": "media/posters/Mortal-Kombat-11-Ultimate-Edition-PS4-10201-600x600.webp", "age_limit": false, "is_published": true, "aviable": true, "quantity": 21, "price": "80.00", "url": "mortal-kombat-11", "brand": 3, "year": 2019, "categories": [7], "tag": [13]}}]
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-03-07T06:28:44.111Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "den4ik",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-03-07T06:28:44.122Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "denis",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-03-07T06:28:44.132Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "bilbo",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-03-07T09:47:09.356Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Action",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-03-07T09:48:43.486Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "#god-of-war",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-03-07T09:49:30.701Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "God Of War",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-03-07T10:02:59.437Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "God Of War",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-03-07T10:03:07.248Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "nhl",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0438\\u0433\\u0440\\u044b(Name of game)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-03-07T10:03:47.715Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "god",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-03-07T10:08:23.193Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "tyu",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-03-07T10:08:28.725Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "god",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Url\", \"Tag\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-03-09T10:20:22.093Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "bilbo",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e \\u043f\\u0440\\u043e\\u0444\\u0438\\u043b\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2024-03-10T06:26:35.147Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "nhl - bilbo - текст текст тексттекст текст тексттекст текст тексттекст текст тексттекст текст тексттекст текст тексттекст текст текстм\r\nтекст текст тексттекст текст тексттекст текст тексттекст текст т",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2024-03-15T04:47:01.759Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Sport",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2024-03-15T04:48:13.358Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "1",
+      "object_repr": "ea-sports",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2024-03-15T04:48:26.689Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "#fifa",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2024-03-15T04:49:16.501Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "FC24",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2024-03-15T04:49:45.352Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "god",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2024-03-15T04:49:45.377Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "nhl",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2024-03-15T04:51:31.434Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "2",
+      "object_repr": "Ubisoft",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2024-03-15T04:52:27.491Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "God Of War",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2024-03-15T04:54:04.862Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Adventures",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2024-03-15T04:54:21.274Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "3",
+      "object_repr": "Sony",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2024-03-15T04:54:42.549Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "#вдвоем",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2024-03-15T04:55:13.075Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "Ratchet & Clank",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2024-03-15T04:55:25.201Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "tyu",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2024-03-15T04:59:51.166Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "Knack 2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2024-03-15T05:01:38.053Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "RPG",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2024-03-15T05:02:30.899Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "#zombie",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2024-03-15T05:02:55.829Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "Days Gone",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2024-03-15T05:04:40.277Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "#future",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2024-03-15T05:04:51.970Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "Detroit Стать человеком",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2024-03-15T05:08:09.835Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "9",
+      "object_repr": "Death Stranding",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2024-03-15T05:11:20.054Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "#soulslike",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2024-03-15T05:11:32.091Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "10",
+      "object_repr": "Bloodborne",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2024-03-15T05:13:33.014Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "11",
+      "object_repr": "Horizon Zero Dawn",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2024-03-15T05:17:55.118Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "12",
+      "object_repr": "Ghost of Tsushima",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2024-03-15T10:52:20.397Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "#spiderman",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2024-03-15T10:52:34.809Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "13",
+      "object_repr": "Spider-Man",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2024-03-15T10:54:54.785Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "4",
+      "object_repr": "Rockstar",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2024-03-15T10:55:17.512Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "#gta",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2024-03-15T10:55:28.354Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "14",
+      "object_repr": "Grand Theft Auto The Trilogy",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2024-03-15T10:58:54.009Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Horror",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2024-03-15T10:59:09.549Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "#ужасы",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2024-03-15T11:00:49.652Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "15",
+      "object_repr": "Until Dawn/Дожить До Рассвета",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2024-03-15T11:02:29.488Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Shooter",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2024-03-15T11:03:14.870Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "#стрелялка",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2024-03-15T11:03:39.338Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "16",
+      "object_repr": "Uncharted Nathan Drake",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2024-03-15T11:05:08.466Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "#stels",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2024-03-15T11:05:35.257Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "5",
+      "object_repr": "NaughtyDog",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2024-03-15T11:06:36.806Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "17",
+      "object_repr": "The Last of Us Remastered",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2024-03-15T11:08:07.948Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Fighting",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2024-03-15T11:08:37.657Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "#mk",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2024-03-15T11:09:17.681Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "18",
+      "object_repr": "Mortal Kombat 11",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add Бренд",
+      "content_type": 6,
+      "codename": "add_brand"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change Бренд",
+      "content_type": 6,
+      "codename": "change_brand"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete Бренд",
+      "content_type": 6,
+      "codename": "delete_brand"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view Бренд",
+      "content_type": 6,
+      "codename": "view_brand"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Категория",
+      "content_type": 7,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Категория",
+      "content_type": 7,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Категория",
+      "content_type": 7,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Категория",
+      "content_type": 7,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Тег",
+      "content_type": 8,
+      "codename": "add_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Тег",
+      "content_type": 8,
+      "codename": "change_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Тег",
+      "content_type": 8,
+      "codename": "delete_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Тег",
+      "content_type": 8,
+      "codename": "view_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Продукт",
+      "content_type": 9,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Продукт",
+      "content_type": 9,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Продукт",
+      "content_type": 9,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Продукт",
+      "content_type": 9,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add Пользователь",
+      "content_type": 10,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change Пользователь",
+      "content_type": 10,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete Пользователь",
+      "content_type": 10,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view Пользователь",
+      "content_type": 10,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add Комментарий",
+      "content_type": 11,
+      "codename": "add_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change Комментарий",
+      "content_type": 11,
+      "codename": "change_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete Комментарий",
+      "content_type": 11,
+      "codename": "delete_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view Комментарий",
+      "content_type": 11,
+      "codename": "view_comment"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "products",
+      "model": "brand"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "products",
+      "model": "category"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "products",
+      "model": "tag"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "products",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "users",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "comments",
+      "model": "comment"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "6u04rmq6c9e1067j6ri195hkbqs2cl73",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSE8C7h07zeQYQakaiAp7cr479qkC93ec859sQjbWuM28hJnYmcm2el3S4CP3HZAd2i3zrG3dZkT3xV-0MGvnfLzcrh_BxVG_dZgldUiCa-k88YEkYoPqB2RJkzkNYAJToK2IpC3CnNJhXDKeUIsAtn7A9PDOJE:1rkzQy:YQQgN2exUGSTY6BFEF7x0GJpeMDLAaYem104W0ONv34",
+      "expire_date": "2024-03-29T04:44:44.318Z"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$thVVOVVCQIgsGLuPLWOSEB$Wig1iapD9ik65irkmpb+HkG3OjeY0EoZnUtke8UbWJM=",
+      "last_login": "2024-03-15T04:44:44.307Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-03-05T15:10:23.673Z",
+      "photo": "",
+      "date_birth": null,
+      "phone": null,
+      "adress": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$ZVlg1S37mWmjuG838aCI2a$RXXNEJV2sHvLL4nQWV+baqFdqlRC/WQaVKUcQkcEFsQ=",
+      "last_login": "2024-03-10T15:13:25.417Z",
+      "is_superuser": false,
+      "username": "bilbo",
+      "first_name": "Bilbo",
+      "last_name": "Baggens",
+      "email": "swankyyy1@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-03-09T07:22:45Z",
+      "photo": "users/photo/NHL.jpg",
+      "date_birth": null,
+      "phone": 375292813237,
+      "adress": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+      "name": "Action",
+      "description": "",
+      "url": "action"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+      "name": "Sport",
+      "description": "",
+      "url": "sport"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+      "name": "Adventures",
+      "description": "",
+      "url": "adventures"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 4,
+    "fields": {
+      "name": "RPG",
+      "description": "",
+      "url": "rpg"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 5,
+    "fields": {
+      "name": "Horror",
+      "description": "",
+      "url": "horror"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 6,
+    "fields": {
+      "name": "Shooter",
+      "description": "",
+      "url": "shooter"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 7,
+    "fields": {
+      "name": "Fighting",
+      "description": "",
+      "url": "fighting"
+    }
+  },
+  {
+    "model": "products.brand",
+    "pk": 1,
+    "fields": {
+      "name": "ea-sports",
+      "description": ""
+    }
+  },
+  {
+    "model": "products.brand",
+    "pk": 2,
+    "fields": {
+      "name": "Ubisoft",
+      "description": ""
+    }
+  },
+  {
+    "model": "products.brand",
+    "pk": 3,
+    "fields": {
+      "name": "Sony",
+      "description": ""
+    }
+  },
+  {
+    "model": "products.brand",
+    "pk": 4,
+    "fields": {
+      "name": "Rockstar",
+      "description": ""
+    }
+  },
+  {
+    "model": "products.brand",
+    "pk": 5,
+    "fields": {
+      "name": "NaughtyDog",
+      "description": ""
+    }
+  },
+  {
+    "model": "products.tag",
+    "pk": 1,
+    "fields": {
+      "name": "#god-of-war"
+    }
+  },
+  {
+    "model": "products.tag",
+    "pk": 3,
+    "fields": {
+      "name": "#fifa"
+    }
+  },
+  {
+    "model": "products.tag",
+    "pk": 4,
+    "fields": {
+      "name": "#вдвоем"
+    }
+  },
+  {
+    "model": "products.tag",
+    "pk": 5,
+    "fields": {
+      "name": "#zombie"
+    }
+  },
+  {
+    "model": "products.tag",
+    "pk": 6,
+    "fields": {
+      "name": "#future"
+    }
+  },
+  {
+    "model": "products.tag",
+    "pk": 7,
+    "fields": {
+      "name": "#soulslike"
+    }
+  },
+  {
+    "model": "products.tag",
+    "pk": 8,
+    "fields": {
+      "name": "#spiderman"
+    }
+  },
+  {
+    "model": "products.tag",
+    "pk": 9,
+    "fields": {
+      "name": "#gta"
+    }
+  },
+  {
+    "model": "products.tag",
+    "pk": 10,
+    "fields": {
+      "name": "#ужасы"
+    }
+  },
+  {
+    "model": "products.tag",
+    "pk": 11,
+    "fields": {
+      "name": "#стрелялка"
+    }
+  },
+  {
+    "model": "products.tag",
+    "pk": 12,
+    "fields": {
+      "name": "#stels"
+    }
+  },
+  {
+    "model": "products.tag",
+    "pk": 13,
+    "fields": {
+      "name": "#mk"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "name": "FC24",
+      "short_description": "С EA SPORTS FC™ 24 начинается будущее футбольных симуляторов. Этот инновационный проект позволит вам сполна насладиться футбольным азартом, а также встретить лучших игроков из крупнейших клубов, лиг и турниров мира.",
+      "description": "<h4>Новые технологии</h4>\r\n\r\n<p><strong>HyperMotionV</strong><br />\r\nHyperMotionV использует данные из более чем 180 матчей профессиональных футболистов и футболисток, чтобы досконально воссоздавать движения игроков и с точностью имитировать происходящее на реальном поле.</p>\r\n\r\n<p><strong>PlayStyles</strong><br />\r\nОптимизированная Opta технология стилей игры улучшает аутентичность виртуальных персонажей, трансформируя данные реальных игроков, собранные Opta и другими источниками, в коронные умения, которые делают каждого цифрового игрока уникальным и правдоподобным.</p>\r\n\r\n<p><strong>Движок Frostbite&trade;</strong><br />\r\nУсовершенствованный движок Frostbite&trade; в мельчайших подробностях воссоздаёт самую популярную игру в мире. Благодаря ему вы сможете с головой погрузиться в каждый матч.</p>\r\n\r\n<h4>Режимы игры EA SPORTS FC&trade; 24</h4>\r\n\r\n<p><strong>Создайте команду своей мечты в Ultimate Team</strong><br />\r\nЕщё больше игроков из прошлого и настоящего, включая звёзд женского футбола, а также новые способы персонализировать клуб на поле и за его пределами. Режим Ultimate Team&trade; погружает игроков в мир футбола благодаря материалам, созданным на основе реальных выступлений футболистов и матчей таких турниров, как Лига чемпионов УЕФА.</p>\r\n\r\n<p><strong>Выберите свой путь в испытаниях карьеры</strong><br />\r\nВпишите своё имя в историю футбола в карьере игрока или менеджера &mdash; станьте частью крупнейших турниров и лиг мира, контролируя каждый шаг на пути к успеху.</p>\r\n\r\n<p><strong>Система полного управления</strong><br />\r\nВоплотите собственную футбольную философию. Новейшая система полного управления позволит вам выработать уникальную стратегию игры. Пополняйте тренерский состав и добивайтесь лучших результатов команды на поле, а также изучайте отчёты перед матчем, чтобы воспользоваться слабостями соперников.</p>\r\n\r\n<p>&nbsp;</p>",
+      "poster": "media/posters/fc-24-ps4-600x600.webp",
+      "age_limit": false,
+      "is_published": true,
+      "aviable": true,
+      "quantity": 5,
+      "price": "124.00",
+      "url": "fc24",
+      "brand": 1,
+      "year": 2014,
+      "categories": [
+        2
+      ],
+      "tag": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "name": "God Of War",
+      "short_description": "Все изменилось. Закончился круговорот насилия, недоверия и обмана. Завершена череда ошибок, связанных с богами греческого пантеона, – злополучное соглашение с Аресом, убийство семьи, ненависть и безумие, а в итоге грандиозное разрушение Олимпа. Ярость Кратоса стала причиной множества бед. Но что буд",
+      "description": "<p>Характеристики</p>\r\n\r\n<p>Месть богам Олимпа осталась в далеком прошлом. Теперь Кратос ведет обычную жизнь в суровом северном краю. Но теперь ему предстоит не просто выживать самому, но и научить подрастающего сына справляться с любой угрозой. Это поразительное переосмысление истории God of War сочетает в себе все отличительные особенности культовой серии &ndash; свирепые сражения, грандиозные схватки с боссами и невероятный размах происходящего &ndash; и подкрепляет их мощным и трогательным сюжетом, привносящем новые краски в мир Кратоса.</p>\r\n\r\n<p>Кратосу вновь выпал шанс стать достойным отцом. Обучая и защищая Атрея, он должен научиться обуздывать свою ярость и бороться с опасностями окружающего мира с оглядкой на своего спутника.</p>\r\n\r\n<p>Мрамор и строгая архитектура Олимпа остались в прошлом. На смену им пришли темные леса, высокие горы и мрачные пещеры, полные могучих и опасных существ. Здесь действуют свои законы и властвуют незнакомые силы, а за каждым поворотом ждут неожиданные и захватывающие открытия.</p>\r\n\r\n<p>Расположенная за плечом персонажа свободная камера отправит вас в самое сердце битвы. Кратосу предстоит столкнуться с невероятными порождениями скандинавской мифологии, а новое оружие и способности в сочетании с характерными чертами знаменитой серии станут новым словом в жанре экшенов.</p>",
+      "poster": "media/posters/God-Of-War-PS4-7069-600x600.webp",
+      "age_limit": false,
+      "is_published": true,
+      "aviable": true,
+      "quantity": 4,
+      "price": "82.00",
+      "url": "god-of-war",
+      "brand": 2,
+      "year": 2022,
+      "categories": [
+        1
+      ],
+      "tag": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "name": "Ratchet & Clank",
+      "short_description": "Присоединяйтесь к очаровательному Ломбаксу и его другу роботу в новой игре, которая пересказывает насыщенную историю знакомства отважных героев. Будь вы давним поклонником Рэтчета или новичком в этой серии игр, приготовьтесь к незабываемому путешествию по вселенной в их первом космическом приключени",
+      "description": "<p>Приключения Рэтчета и Кланка нового поколения получили все лучшие качества легендарного хита эпохи PlayStation 2, а заодно немало новенького: вас ждут современное разрешение 1080р, высококачественные сюжетные ролики (в том числе из анимационного фильма), дополнительные боссы, места действия, виды оружия и многое другое. Вместе с любимыми героями, а также их старыми и новыми друзьями вы отправитесь в самое захватывающее приключение - теперь на PlayStation 4!</p>\r\n\r\n<p>Знаменитые герои снова в строю: Рэтчет, Кланк и капитан Кварк готовы спасать галактику рука об руку с новичками серии! Сюжет игры Ratchet &amp; Clank не только расскажет о похождениях знаменитых напарников, но и больше поведает о них самих. Улучшенный геймплей, новые планеты, боссы, боевые сцены, оружие и гаджеты - этому приключению не будет равных! Захватывающий экшн - платформер, щедро сдобренный фирменным юмором, станет еще лучше на PlayStation 4</p>",
+      "poster": "media/posters/Ratchet---Clank-PS4-4972-600x600.webp",
+      "age_limit": false,
+      "is_published": true,
+      "aviable": true,
+      "quantity": 23,
+      "price": "78.00",
+      "url": "ratchet-clank",
+      "brand": 3,
+      "year": 2016,
+      "categories": [
+        3
+      ],
+      "tag": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "name": "Knack 2",
+      "short_description": "Окажитесь в очаровательном мире наполненном яркими местами, испытаниями, динамичными сражениями и интересными головоломками, где хорошо известный герой Кнак приобретает новые силы и стремится спасти планету во второй раз.",
+      "description": "<p>Невероятная графика<br />\r\nВас ждут удивительные персонажи и восхитительный мир, 90 минут сюжетных видеороликов и уникальные очаровательные герои.</p>\r\n\r\n<p>Рука помощи<br />\r\nВаш друг в любой момент сможет присоединиться к вашему приключению. Веселитесь в совместном режиме игры, выполняя особые комбинации приемов и опрокидывая врагов. Более того, если захочется, украдите добычу вашего товарища, чтобы спровоцировать небольшую дружескую потасовку.</p>\r\n\r\n<p>Между прошлым и будущим<br />\r\nСобирайте реликвии, чтобы стать сильнее и проложить путь сквозь орды гоблинов, роботов и других противников. Нэк умеет создавать щиты, парировать атаки противника и даже использовать части собственного тела в качестве бумеранга. Запрыгивайте в танки и другие гигантские транспортные средства, чтобы получить преимущество в огневой мощи, а также не забывайте подбирать предметы, благодаря которым Нэк может принимать другие формы и получать новые невероятные способности.</p>\r\n\r\n<p>Веселье для всех<br />\r\nДинамичный игровой процесс контролируется простым и интуитивным управлением, а искусственный интеллект противников не даст заскучать игрокам любого уровня подготовки.</p>",
+      "poster": "media/posters/Knack-2-PS4-9715-600x600.webp",
+      "age_limit": false,
+      "is_published": true,
+      "aviable": true,
+      "quantity": 6,
+      "price": "98.00",
+      "url": "knack-2",
+      "brand": 3,
+      "year": 2018,
+      "categories": [
+        1
+      ],
+      "tag": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "name": "Days Gone",
+      "short_description": "Вам предстоит влезть в шкуру бывшего преступника, байкера Дикона Сейнт-Джона – бродяги, охотника за головами, странствующего атавизма человечества.",
+      "description": "<h4>Об игре</h4>\r\n\r\n<p>Объездите мир, живущий по волчьим законам и опустошенный смертоносной пандемией, играя за байкера и охотника за головами Дикона Сент-Джона.</p>\r\n\r\n<p>Верхом на верном мотоцикле преодолевайте опасности на разбитой дороге, в числе которых толпы безумных фриков и ужасающих людей.</p>\r\n\r\n<h4>Ключевые особенности</h4>\r\n\r\n<p><strong>Поразительный мир</strong><br />\r\nСеверо-западное побережье Тихого океана с его величественными лесами, необъятными лугами, заснеженными горными вершинами и пустынными вулканическими плато настолько же прекрасно, насколько и опасно. Исследуйте горы, пещеры, ущелья и небольшие поселения, на протяжении миллионов лет страдавшие от извержений.</p>\r\n\r\n<p><strong>Жестокие схватки</strong><br />\r\nНа этих землях нередко можно встретить агрессивно настроенных бандитов или толпы фриков, поэтому вы должны уметь находить применение своим ловушкам, оружию и улучшаемым навыкам, чтобы остаться в живых. И, конечно же, не забывайте о своем номадском байке, бесценном средстве передвижения по этим обширным землям.</p>\r\n\r\n<p><strong>Постоянно меняющееся окружение</strong><br />\r\nСадитесь за руль верного мотоцикла Дикона и исследуйте живой мир с постоянно меняющимися погодными условиями, сменой дня и ночи, эволюционирующими фриками, которые приспосабливаются к окружению &ndash; и немногими выжившими.</p>\r\n\r\n<p><strong>Увлекательная история</strong><br />\r\nПогрузитесь в мощную историю об отчаянии, предательстве и сожалении, где вы возьмете на себя роль Дикона Сент-Джона, который пытается увидеть хотя бы проблеск надежды, чтобы оправиться от тяжелой утраты. Что делает нас людьми в ежедневной борьбе за выживание?</p>",
+      "poster": "media/posters/Days-Gone-Жизнь-после-PS4-8396-600x600.webp",
+      "age_limit": false,
+      "is_published": true,
+      "aviable": true,
+      "quantity": 12,
+      "price": "98.00",
+      "url": "days-gone",
+      "brand": 3,
+      "year": 2019,
+      "categories": [
+        1,
+        4
+      ],
+      "tag": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "name": "Detroit Стать человеком",
+      "short_description": "Перенеситесь в Детройт 2038 года, ставший мегаполисом ближайшего будущего, где высокоразвитые андроиды служат человечеству, в чем и состоит вся природа их существования. Но скоро все изменится.",
+      "description": "<p>Detroit: Become Human (PS4) - это новый эксклюзивный проект для PlayStation 4 разрабатываемый в недрах студии Quantic Dream. Эта компания подарила нам такие известные проекты, как Heavy Rain и Beyond Two Souls.</p>\r\n\r\n<p>Переместитесь в город будущего под названием Детройт. Здесь нашли свое место самые развитые технологии, среди которых, особняком стоят роботизированные механизмы - андройды. Станьте очевидцами того, как этот новый мир падет в пучины хаоса во время путешествий девушки-андройда под именем Кара в поисках своего места в жестоком людском обществе.</p>\r\n\r\n<p>Окажите собственное влияние на амбициозную сюжетную линию, где от ваших решений сформируется не только ваша судьба, но и будущее всего города. Раскройте смысл того, что действительно значит быть человеком от лица настоящего аутсайдера и попытайтесь понять мир людей сквозь призму машин.</p>\r\n\r\n<p>Перенеситесь в Детройт 2038 года, ставший мегаполисом ближайшего будущего, где высокоразвитые андроиды служат человечеству, в чем и состоит вся природа их существования. Но скоро все изменится...</p>\r\n\r\n<p>Примерьте на себя роли трех различных персонажей-андроидов и наблюдайте, как этот дивный новый мир балансирует на грани хаоса. Ваши поступки резко изменяют ход напряженного сложного повествования. В игре доступны тысячи вариантов выбора и десятки концовок. Каким окажется ваше будущее Детройта?</p>\r\n\r\n<p>Играйте свою роль в захватывающем повествовании.</p>\r\n\r\n<p>Окунитесь в мир, где моральные дилеммы и сложные решения могут превратить рабов-андроидов в меняющих мир революционеров. Узнайте, что значит быть человеком с точки зрения настоящего отброса общества &ndash; и взгляните на мир глазами машины.</p>\r\n\r\n<p>Их жизни, ваши решения.</p>\r\n\r\n<p>Определите, как сложится невероятная история, где ваши поступки повлияют не только на судьбы трех основных персонажей, но и на будущее всего Детройта.</p>\r\n\r\n<p>От того, как вы будете управлять Кэрой, Коннором и Маркусом, будут зависеть жизни многих окружающих персонажей &ndash; и если кто-либо из них решится заплатить самую высокую цену и пожертвовать собой, история продолжится...</p>\r\n\r\n<p>Главные персонажи</p>\r\n\r\n<p>Управляйте тремя героями, которым выпадет возможность изменить судьбы андроидов и человечества&hellip;</p>\r\n\r\n<p>Коннор (Актер &ndash; Брайан Дечарт (&laquo;Настоящая кровь&raquo;, &laquo;Оставшиеся&raquo;)</p>\r\n\r\n<p>На чьей вы стороне?</p>\r\n\r\n<p>Станьте прототипом совершенного андроида, расследуйте преступления и разбирайтесь в беспорядках, происходящих в оживленном мегаполисе будущего, Детройте.</p>\r\n\r\n<p>Коннор занимает должность следователя особого отдела полиции, и его цель &ndash; помогать департаменту полиции Детройта выслеживать &laquo;девиантов&raquo; &ndash; андроидов, у которых сбились программные установки, после чего они отказались подчиняться своим хозяевам или стали преступниками.</p>\r\n\r\n<p>Как вы решите себя вести: останетесь хладнокровной и расчетливой машиной, беспрекословно выполняя свои обязанности, или начнете сочувствовать участи собратьев-андроидов и сомневаться в правильности своего дела?</p>\r\n\r\n<p>Маркус (Актер &ndash; Джесси Уильямс (&laquo;Анатомия страсти&raquo;, &laquo;Хижина в лесу&raquo;)</p>\r\n\r\n<p>Как не переступить черту в борьбе за свободу?</p>\r\n\r\n<p>Вызовите искру, от которой может вспыхнуть пламя восстания андроидов, играя за Маркуса, еще одного девианта, которому удалось вырваться из плена своего кода.</p>\r\n\r\n<p>Сбежав от хозяина и присоединившись к растущей подпольной группе инакомыслящих, Маркус возглавляет борьбу за освобождение андроидов Детройта. Оставляя решительное послание людям, выберет ли он гуманный путь... или прибегнет к насилию?</p>\r\n\r\n<p>Кэра (Актриса &ndash; Вэлори Керри (&laquo;Сумерки. Сага: Рассвет &ndash; Часть 2&raquo;, &laquo;Ведьма из Блэр: Новая глава&raquo;)</p>\r\n\r\n<p>Что значит быть человеком?</p>\r\n\r\n<p>Посмотрите на обнищавшие захудалые районы Детройта глазами нового андроида Кэры, которой удалось избежать программирования.</p>\r\n\r\n<p>После своего побега вместе с невинной девочкой, за которой она поклялась присматривать, Кэра теперь считается девиантом. Вы должны помочь ей свыкнуться с неравенством в этом жестоком мире и найти в нем свое место... или постараться изменить его, чтобы защитить ее суррогатного ребенка.</p>",
+      "poster": "media/posters/Detroit-Стать-человеком-PS4-7294-600x600.webp",
+      "age_limit": false,
+      "is_published": true,
+      "aviable": true,
+      "quantity": 7,
+      "price": "76.00",
+      "url": "detroit-stat-chelovekom",
+      "brand": 3,
+      "year": 2017,
+      "categories": [
+        1
+      ],
+      "tag": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+      "name": "Death Stranding",
+      "short_description": "Отправляйтесь в необычное приключение от легендарного разработчика Хидео Кодзимы на PlayStation 4. Возьмите под свой контроль рабочего Сэма Бриджеса, который покоряет смертельный и загадочный мир, полный посланников смерти. Отважьтесь преодолеть мир, трансформированный Петлей смерти. Держите в своих",
+      "description": "<p>В ближайшем будущем земной шар сотрясут таинственные взрывы, которые станут причиной возникновения ряда сверхъестественных явлений, известных как Выход смерти. Миссия по спасению человечества ляжет на плечи Сэма Портера Бриджеса, которому предстоит отправиться в путь по разоренным пустошам, невзирая на присутствие потусторонних существ и постоянную угрозу массового уничтожения.</p>\r\n\r\n<p>Cпасти цивилизацию Отправляйтесь в путешествие на грани жизни и смерти и попытайтесь спасти цивилизацию, покорив загадочный разрушенный мир, полный посланников смерти и сверхъестественных опасностей. Отважьтесь преодолеть земли, трансформированные Петлей смерти, удерживая в руках бессвязные остатки нашего будущего, в надежде восстановить связь между осколками мира.</p>",
+      "poster": "media/posters/Death-Stranding-PS4-9139-600x600.webp",
+      "age_limit": false,
+      "is_published": true,
+      "aviable": true,
+      "quantity": 78,
+      "price": "134.00",
+      "url": "death-stranding",
+      "brand": 3,
+      "year": 2022,
+      "categories": [
+        1,
+        3
+      ],
+      "tag": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+      "name": "Bloodborne",
+      "short_description": "Взгляните в лицо своим страхам и попытайтесь отыскать ответы в древнем Ихарнаме, где свирепствует странная эпидемия, распространяющаяся словно лесной пожар.",
+      "description": "<h4>Об игре</h4>\r\n\r\n<p>Одинокий путник. Проклятый город. Смертоносная тайна, уничтожающая все, к чему она прикоснется. Взгляните в лицо своим страхам на улицах загнивающего Ярнама - проклятого места, разъедаемого ужасным, всепоглощающим мором. Исследуйте его самые темные уголки, сражайтесь за жизнь холодным и огнестрельным оружием и раскройте леденящие душу секреты. Возможно, они спасут вам жизнь.</p>\r\n\r\n<h4>Ключевые особенности</h4>\r\n\r\n<p>Отправляйтесь в путешествие, где на каждом шагу вас подстерегают жуткие порождения кошмаров.</p>\r\n\r\n<p>В вашем распоряжении разнообразный арсенал - от ружей до зазубренных тесаков. Но чтобы одолеть хитрых и ловких тварей, населяющих город, потребуется куда больше: смекалка, стратегия и молниеносные рефлексы.</p>\r\n\r\n<p>Настоящий ролевой экшен нового поколения. Вас ждут тщательно проработанные улицы готического города, потрясающая детализация, атмосферное освещение и продвинутые сетевые режимы, использующие все возможности PlayStation 4.</p>",
+      "poster": "media/posters/Bloodborne-PS4-4339-600x600.webp",
+      "age_limit": false,
+      "is_published": true,
+      "aviable": true,
+      "quantity": 23,
+      "price": "87.00",
+      "url": "bloodborne",
+      "brand": 3,
+      "year": 2022,
+      "categories": [
+        4
+      ],
+      "tag": [
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+      "name": "Horizon Zero Dawn",
+      "short_description": "Наиболее полное издание знаменитой игры. В величественном и прекрасном постапокалиптическом мире, где природа завоевала руины забытых цивилизаций, остатки человечества объединились в примитивные племена охотников-собирателей. Власть над новой дикой средой перешла к машинам, ужасным механическим созд",
+      "description": "<p>Путешествуйте по миру, наполненному странными артефактами и заброшенными руинами, чтобы узнать его самые сокровенные тайны. Каким образом машины подчинили себе этот мир? Что произошло с цивилизацией, которая была здесь раньше? Ответы могут предопределить судьбу не только самой Элой, но и всего человечества.</p>\r\n\r\n<p>Состав издания базовая версия игры, сюжетное дополнение The Frozen Wilds, игровые предметы: набор племени Карха, набор племени Банук, набор племени Нора, цифровой альбом иллюстраций, тема для меню PS4.</p>\r\n\r\n<p>Сюжетное дополнение The Frozen Wilds. За горами на севере расположены границы племени Банук, и суровая природа этих мест подвергнет нелегкому испытанию любого, кто осмелится их перейти. Но теперь на ледяной пустоши возникла новая угроза, а для Элой &ndash; новая тайна, которую ей предстоит изучить. Удивительный мир Horizon Zero Dawn становится еще больше. В дополнительном приключении The Frozen Wilds вас ждут новый регион, новая увлекательная сюжетная линия, новые виды смертоносных машин и новые побочные задания.</p>",
+      "poster": "media/posters/Horizon-Zero-Dawn-Complete-Edition-PS4-9269-600x600.webp",
+      "age_limit": false,
+      "is_published": true,
+      "aviable": true,
+      "quantity": 13,
+      "price": "56.00",
+      "url": "horizon-zero-dawn",
+      "brand": 2,
+      "year": 2014,
+      "categories": [
+        1,
+        4
+      ],
+      "tag": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+      "name": "Ghost of Tsushima",
+      "short_description": "Конец XIII века. Монгольская империя опустошила уже не одно государство и стремится покорить весь Восток. От внутренних территорий Японии захватчиков отделяет лишь остров Цусима.",
+      "description": "<p>Первая волна монгольского вторжения вот-вот разорит остров, но отважный самурай Дзин Сакай готов пойти на всё, чтобы защитить родную землю.</p>\r\n\r\n<p>Режиссёрская версия &mdash; это максимально полный вариант игры &laquo;Призрак Цусимы&raquo; со всеми вышедшими дополнительными материалами:</p>\r\n\r\n<p>1 очко техники;<br />\r\nЦифровой мини-артбук;<br />\r\nОберег &laquo;Милость Хатимана&raquo;;<br />\r\nКосметический набор &laquo;Герой Цусимы&raquo;: золотая маска, набор мечника, конь, седло. Режим совместной игры &laquo;Легенды&raquo;;<br />\r\nКомментарии разработчиков: известный японский историк о том, как мир &laquo;Призрака Цусимы&raquo; соотносится с реальными событиями, которые легли в основу игры;<br />\r\nДополнение &laquo;Остров Ики&raquo;: новая история, мини-игры, враги и многое другое.</p>",
+      "poster": "media/posters/Ghost-of-Tsushima-Призрак-Цусимы-Director-s-Cut-PS4-10028-600x600.webp",
+      "age_limit": false,
+      "is_published": true,
+      "aviable": true,
+      "quantity": 6,
+      "price": "88.00",
+      "url": "ghost-of-tsushima",
+      "brand": 3,
+      "year": 2019,
+      "categories": [
+        1,
+        3,
+        4
+      ],
+      "tag": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+      "name": "Spider-Man",
+      "short_description": "Приобретите издание «Игра года» и получите доступ к трем сюжетным главам дополнения Marvel’s Spider-Man: «Город, который никогда не спит», включающим дополнительные задания и испытания, новых врагов из вселенной Человека-паука и возможность разблокировать дополнительные костюмы.",
+      "description": "<p>Звезда Marvel&#39;s Spider-Man &ndash; один из самых знаменитых супергероев планеты. Помимо акробатических трюков, непредсказуемых приемов и полетов на паутине, которыми славится Человек-паук, вас ждут новые элементы, которых еще не было в играх про этого персонажа. Перемещение с помощью паркура и интерактивное окружение, новые боевые способности и битвы, достойные киноблокбастеров, &ndash; такого Человека-паука вы еще не видели!</p>\r\n\r\n<p>Объединив усилия, Marvel и Insomniac Games придумали новую историю про Человека-паука, непохожего на героя, которого вы знаете по комиксам и фильмам. Этот Питер Паркер &ndash; опытный борец с преступными бандами, угрожающими Нью-Йорку. Он постоянно балансирует на грани, одновременно пытаясь привести в порядок свою личную жизнь, построить карьеру и защитить девять миллионов ньюйоркцев, чьи судьбы зависят от его решений.</p>\r\n\r\n<p>Станьте Человеком-пауком<br />\r\nПитер Паркер &ndash; опытный Человек-паук, вот уже несколько лет сражающийся с преступниками. Он в совершенстве владеет паучьим чутьем, динамичными навыками, акробатическими приемами и облачен в новый костюм.</p>\r\n\r\n<p>Узнайте оригинальную историю<br />\r\nЭто совершенно новая вселенная Человека-паука, в которой знакомые герои предстанут в необычном свете. Ведите сложную двойную жизнь в качестве подростка с великой силой&hellip; и сложными взаимоотношениями с окружающими.</p>\r\n\r\n<p>Прыгайте по открытому миру<br />\r\nСвободно летайте по Нью-Йорку вселенной Marvel, участвуйте в эпических сражениях, следите за развитием увлекательного сюжета и знакомьтесь с интересными персонажами.</p>",
+      "poster": "media/posters/Spider-Man-GOTY-PS4-9726-600x600.webp",
+      "age_limit": false,
+      "is_published": true,
+      "aviable": true,
+      "quantity": 7,
+      "price": "214.00",
+      "url": "spider-man",
+      "brand": 3,
+      "year": 2021,
+      "categories": [
+        1,
+        3
+      ],
+      "tag": [
+        8
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+      "name": "Grand Theft Auto The Trilogy",
+      "short_description": "Сыграйте в классическую трилогию Grand Theft Auto, определившую целый жанр видеоигр. Встречайте обновленные Grand Theft Auto III, Grand Theft Auto: Vice City и Grand Theft Auto: San Andreas для нового поколения.",
+      "description": "<h3>Три легендарных города, три захватывающих истории</h3>\r\n\r\n<p>В игру добавлено множество улучшений самого разного плана, в том числе новая система освещения и повышенная детализация, текстуры высокого разрешения, увеличенная дальность прорисовки, управление и прицеливание в стиле Grand Theft Auto V и многое, многое другое. Никогда прежде ваш любимый мир не выглядел таким живым и реалистичным!</p>\r\n\r\n<h3>Grand Theft Auto: The Trilogy &ndash; The Definitive Edition включает:</h3>\r\n\r\n<p><strong>Grand Theft Auto III</strong><br />\r\nВсе начинается в Либерти-Сити. Grand Theft Auto III позволяет идти куда угодно и делать все, что вам захочется. Безжалостный криминальный мир станет вашим, если у вас хватит смелости его покорить.</p>\r\n\r\n<p><strong>Grand Theft Auto: Vice City</strong><br />\r\nДобро пожаловать в 1980-е. Из десятилетия огромных причесок и вычурных костюмов в пастельных тонах пришла история о том, как один человек вознесся на вершину криминального мира. Grand Theft Auto возвращается. Проживите историю Томми Версетти, полную предательств, возмездия и неоновых огней тропического города, таящего множество возможностей.</p>\r\n\r\n<p><strong>Grand Theft Auto: San Andreas</strong><br />\r\nЗа окном &ndash; начало 1990-х. После того, как пара копов повесила на Си-Джея убийство, которого он не совершал, он должен отправиться в путешествие по всему Сан-Андреасу, чтобы обезопасить своих близких и установить контроль над улицами городов штата.</p>",
+      "poster": "media/posters/Grand-Theft-Auto-The-Trilogy-Definitive-Edition-PS4-10115-600x600.webp",
+      "age_limit": false,
+      "is_published": true,
+      "aviable": true,
+      "quantity": 4,
+      "price": "50.00",
+      "url": "grand-theft-auto-the-trilogy",
+      "brand": 4,
+      "year": 2022,
+      "categories": [
+        1
+      ],
+      "tag": [
+        9
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+      "name": "Until Dawn/Дожить До Рассвета",
+      "short_description": "Когда восемь друзей оказываются отрезаны от мира в уединенной горной хижине, реальность очень быстро оборачивается кошмаром, ведь, судя по всему, они там не одни.",
+      "description": "<h4>Об игре</h4>\r\n\r\n<p>Когда восемь друзей оказываются отрезаны от мира в уединенной горной хижине, реальность очень быстро оборачивается кошмаром, ведь, судя по всему, они там не одни. Страх и напряжение толкают людей на необдуманные действия, когда решаются вопросы жизни и смерти.</p>\r\n\r\n<p>Любой выбор каждого из восьми героев поневоле, каким бы простым и несущественным он ни казался на первый взгляд, может стать важным звеном уникальной цепи событий, ведущей к непредсказуемому финалу.</p>\r\n\r\n<p>Интерактивный триллер &laquo;Дожить до рассвета&raquo; виртуозно объединяет великолепную актерскую игру голливудских звезд, в числе которых Хайден Пенеттьери (&laquo;Герои&raquo;, &laquo;Нэшвилл&raquo;), и беспрецедентную мощь консоли нового поколения PlayStation 4.</p>\r\n\r\n<h4>Ключевые особенности</h4>\r\n\r\n<p>В домике, затерянном в горах, восемь друзей, за которыми охотится убийца, отчаянно цепляются за жизнь. То, как вы построите отношения между героями, в сочетании с их собственным восприятием происходящего сформирует уникальную историю, соавтором которой вы сможете с полным правом назвать себя.</p>\r\n\r\n<p>В работе над игрой приняли участие звезды Голливуда, такие как Хайден Пенеттьери (&laquo;Герои&raquo;, &laquo;Нэшвилл&raquo;) и Рами Малек (&laquo;Жажда скорости&raquo;, &laquo;Ночь в музее&raquo;).</p>\r\n\r\n<p>Принятые решения прямо влияют на то, как на ваших глазах строится сюжетная линия, ведь каждая история в &laquo;Дожить до рассвета&raquo; будет уникальной. Эти решения, большие и малые, простые и сложные, определят судьбу героев. Знаменитый эффект бабочки в действии - даже самое тривиальное событие может привести к возникновению смертельной угрозы.</p>",
+      "poster": "media/posters/untildawn-ps4-600x600.webp",
+      "age_limit": false,
+      "is_published": true,
+      "aviable": true,
+      "quantity": 12,
+      "price": "124.00",
+      "url": "until-dawndozhit-do-rassveta",
+      "brand": 3,
+      "year": 2014,
+      "categories": [
+        1,
+        5
+      ],
+      "tag": [
+        10
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+      "name": "Uncharted Nathan Drake",
+      "short_description": "Окунитесь в захватывающие приключения в знаменитой серии игр. Отправляйтесь в опасные путешествия по всему земному шару вместе с Натаном Дрейком и совершите удивительные открытия. Вас ждут незабываемые встречи: Дрейк часто рискует жизнью, вместе с друзьями вступая в гонку с безжалостными врагами, чт",
+      "description": "<p>История Натана Дрейка, которая началась в рыбацкой лодке у побережья Панамы, со временем стала синонимом слова &quot;приключение&quot;. Uncharted: Drake&#39;s Fortune, Uncharted 2: Among Thieves и &quot;Uncharted 3: Иллюзии Дрейка&quot; - три невероятно популярные игры впервые собраны вместе и обновлены для PS4.</p>\r\n\r\n<p>В роли Натана Дрейка вы пройдете по следам легенд, путешествуя по всему земному шару. Разыщите сказочный золотой город Эльдорадо, пользуясь заметками, оставленными самим сэром Фрэнсисом Дрейком. Повторите роковое путешествие Марко Поло через Гималаи. Найдите Атлантиду песков, о которой мечтал Лоуренс Аравийский.</p>",
+      "poster": "media/posters/Uncharted-Nathan-Drake-Collection-Натан-Дрейк-Коллекция-PS4-9731-600x600.webp",
+      "age_limit": false,
+      "is_published": true,
+      "aviable": true,
+      "quantity": 12,
+      "price": "45.00",
+      "url": "uncharted-nathan-drake",
+      "brand": 2,
+      "year": 2020,
+      "categories": [
+        1,
+        6
+      ],
+      "tag": [
+        11
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+      "name": "The Last of Us Remastered",
+      "short_description": "Захватывающая история, покорившая сердца многих геймеров, воплощенная в усовершенствованной графике (благодаря возможностям консоли PlayStation 4 мир игры стал еще более богатым на детали, ярким и живым), а также все дополнительные материалы, доступные ранее только обладателям сезонного абонемента,",
+      "description": "<p>За двадцать лет эпидемии цивилизованный мир сильно изменился. Население США почти полностью уничтожено. Выжившие сбиваются в банды и убивают всякого чужака &ndash; ради оружия, продовольствия, любой хоть сколько-нибудь ценной вещи. Именно в такой обстановке суровый наемник Джоэл и 14-летняя девочка Элли отправляются в долгое путешествие по некогда великой стране</p>\r\n\r\n<p>Naughty Dog, знаменитая студия, создавшая серию Uncharted, представляет экшен с элементами триллера &laquo;Одни из нас&raquo;. Только на PlayStation вы ощутите, сколь жесток мир Джоэла и Элли, увидите, как в ходе вынужденных странствий будут меняться их отношения. Новые технологии помогли разработчикам создать пугающе реалистичный мир, вдруг сбросивший хрупкие оковы цивилизации. &laquo;Одни из нас&raquo; &ndash; это яркие персонажи, сложный, захватывающий сюжет и, конечно, роскошная графика.</p>\r\n\r\n<p>Обновленная игровая графика: разрешение 1080p, улучшенные текстуры, модели героев, тени и освещение, различные графические усовершенствования.</p>\r\n\r\n<p>Эксклюзивные аудиокомментарии ко всем внутриигровым видероликам, записанные креативным директором и сценаристом игры Нилом Дракманном, режиссером Брюсом Стрейли, актером Троем Бейкером, озвучившим Джоэла, и обладательницей премии BAFTA актрисой Эшли Джонсон, озвучившей Элли.</p>\r\n\r\n<p>Станьте и охотником, и жертвой. Узнайте, что значит быть безжалостным наемником, компанию которому по воле судьбы составила храбрая девочка-подросток. Вам предстоит опасное путешествие по опустевшим, но смертельно опасным Соединенным Штатам Америки</p>\r\n\r\n<p>Вас ждет напряженный сюжет и яркие персонажи. &laquo;Одни из нас&raquo; потрясающе увлекательна, благодаря опыту и таланту сотрудников знаменитой компании Naughty Dog.</p>\r\n\r\n<p>Исследуйте разоренные, обезлюдевшие города &ndash; заброшенные памятники былому величию человечества средь шумных лесов и безмолвных пустошей дикой природы.</p>\r\n\r\n<p>Оценивайте свои силы и продумывайте тактику каждого столкновения с врагом. Система Balance of Power AI корректирует поведение персонажей в зависимости от того, на чьей стороне преимущество &ndash; вашей или ваших противников. Поведение врагов напрямую зависят от их численности, внезапности нападения и того, какое оружие использует Джоэль.</p>\r\n\r\n<p>Учитесь выживать &ndash; добывайте пищу, мастерите оружие из подручных материалов и сражайтесь с другими выжившими за боеприпасы и ресурсы.</p>\r\n\r\n<p>В комплекте - обновленная версия игры &laquo;Одни из нас&raquo;; сюжетное дополнение &laquo;Одни из нас: Оставшиеся позади&raquo;; набор карт для мультиплеера &laquo;Заброшенные территории&raquo;; набор карт для мультиплеера &laquo;Возвращенные территории&raquo; (Reclaimed Territories).</p>",
+      "poster": "media/posters/The-Last-of-Us-Remastered-Одни-из-нас-PS4-5421-600x600.webp",
+      "age_limit": false,
+      "is_published": true,
+      "aviable": true,
+      "quantity": 6,
+      "price": "70.00",
+      "url": "the-last-of-us-remastered",
+      "brand": 5,
+      "year": 2018,
+      "categories": [
+        1
+      ],
+      "tag": [
+        5,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+      "name": "Mortal Kombat 11",
+      "short_description": "Полная версия MK11! Управляйте защитниками Земного царства в этих двух частях одобренного критиками сюжетного режима, чтобы помешать Кронике повернуть время вспять и переписать историю.",
+      "description": "<h4>Об игре</h4>\r\n\r\n<p>Полная версия MK11! Управляйте защитниками Земного царства в этих двух частях одобренного критиками сюжетного режима, чтобы помешать Кронике повернуть время вспять и переписать историю. В битве за спасение всего живого проверяется дружба и рождаются новые союзы. Список персонажей состоит из 37 бойцов, включая Рейна, Милину и Рэмбо.</p>\r\n\r\n<p>Mortal Kombat 11 демонстрирует каждый френдшип, каждое кровавое фаталити или душераздирающий фатальный удар как никогда раньше. Вы будете настолько глубоко погружены в бой, что почувствуете эту боль!</p>",
+      "poster": "media/posters/Mortal-Kombat-11-Ultimate-Edition-PS4-10201-600x600.webp",
+      "age_limit": false,
+      "is_published": true,
+      "aviable": true,
+      "quantity": 21,
+      "price": "80.00",
+      "url": "mortal-kombat-11",
+      "brand": 3,
+      "year": 2019,
+      "categories": [
+        7
+      ],
+      "tag": [
+        13
+      ]
+    }
+  }
+]

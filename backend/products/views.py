@@ -3,15 +3,15 @@ from django.shortcuts import render
 from django.views import View
 from django.views.generic import DetailView
 from common.views import CommonTitleMixin
-from .models import Product, Category, Brand, Tag
-from django.views.generic.base import ContextMixin
+from .models import Product, Category
 from comments.forms import CommentForm
-
+from django.core.paginator import Paginator
 
 class ProductsListView(CommonTitleMixin, View):
     """All products at the home page.
     it filters by tags and gives searched results"""
     title = 'Главная'
+
     def get_content_by_form(self, data):
         query = data.GET.get("q")
         tags = any(data.GET.getlist("brand") or data.GET.getlist("tag"))
@@ -27,12 +27,16 @@ class ProductsListView(CommonTitleMixin, View):
 
     def get(self, request, **kwargs):
         content = self.get_content_by_form(request)
+        # content = Paginator(content, 8)
+        # page_number = request.GET.get('page')
+        # content = content.get_page(page_number)
         return render(request, "products/product_list.html", {'products': content, 'title': self.title})
 
 
 class CategoryListView(View):
     """Products by categories"""
     title = None
+
     def get(self, request, **kwargs):
         slug = kwargs['slug']
         title = Category.objects.filter(url=slug)
@@ -46,6 +50,7 @@ class CategoryListView(View):
 class SortedView(View):
     """Sort products view, it get value from form and ordering by it"""
     title = 'Результаты'
+
     def get(self, request, *args, **kwargs):
         value = request.GET.get("sorting")
 
