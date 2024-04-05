@@ -10,9 +10,9 @@ class BasketQuerySet(models.QuerySet):
 
 class Basket(models.Model):
     user = models.ForeignKey(to=User, on_delete=models.CASCADE, related_name="basket", verbose_name="Пользователь")
-    product = models.ForeignKey(to=Product, on_delete=models.CASCADE, verbose_name="Товар")
+    product = models.ForeignKey(to=Product, on_delete=models.CASCADE, verbose_name="Товар", related_name="basket")
     created_timestamp = models.DateTimeField(auto_now_add=True)
-    objects = BasketQuerySet.as_manager()
+
 
     def __str__(self):
         return f'Корзина для {self.user.email} | Продукт {self.product.name}'

@@ -18,6 +18,8 @@ class UserLogInView(CommonTitleMixin, LoginView):
 
 
 
+
+
 class RegistrationView(CommonTitleMixin, CreateView):
     """View for create new user(customer)"""
 

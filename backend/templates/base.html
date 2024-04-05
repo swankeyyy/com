@@ -58,72 +58,7 @@
                     {% include "UI/include/header-icons.html" %}
 
 
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCart"
-                         aria-labelledby="offcanvasCartLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasCartLabel">Корзина</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                    aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <div class="table-responsive">
-                                <table class="table offcanvasCart-table">
-                                    <tbody>
-                                    <tr>
-                                        <td class="product-img-td"><a href="#">
-                                            <img src="assets/img/71SyRObF2yL._AC_UF10001000_QL80_1.jpg"
-                                                 alt="">
-                                        </a></td>
-                                        <td><a href="#"> etc.А</a></td>
-                                        <td>$65</td>
-                                        <td>&times;1</td>
-                                        <td>
-                                            <button class="btn"><i
-                                                    class="fa-regular fa-circle-xmark"></i></button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="product-img-td"><a href="#">
-                                            <img src="assets/img/71SyRObF2yL._AC_UF10001000_QL80_1.jpg"
-                                                 alt="">
-                                        </a></td>
-                                        <td><a href="#"> etc.А</a></td>
-                                        <td>$22</td>
-                                        <td>&times;1</td>
-                                        <td>
-                                            <button class="btn"><i
-                                                    class="fa-regular fa-circle-xmark"></i></button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="product-img-td"><a href="#">
-                                            <img src="assets/img/71SyRObF2yL._AC_UF10001000_QL80_1.jpg"
-                                                 alt="">
-                                        </a></td>
-                                        <td><a href="#">etc.А</a></td>
-                                        <td>$69</td>
-                                        <td>&times;3</td>
-                                        <td>
-                                            <button class="btn"><i
-                                                    class="fa-regular fa-circle-xmark"></i></button>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                    <tfoot>
-                                    <tr>
-                                        <td colspan="4" class="text-end">Total:</td>
-                                        <td>325</td>
-                                    </tr>
-                                    </tfoot>
-                                </table>
-
-                            </div>
-                            <div class="text-end"><a href="#" class="btn btn-outline-danger ">Купить</a>
-                                <a href="#" class="btn btn-outline-secondary">Checkout</a>
-                            </div>
-
-                        </div>
-                    </div>
+                   {% include "UI/include/basket.html" %}
 
 
                 </div>

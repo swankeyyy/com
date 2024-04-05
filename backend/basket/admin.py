@@ -1,3 +1,9 @@
 from django.contrib import admin
+from .models import Basket
 
-# Register your models here.
+
+@admin.register(Basket)
+class TagAdmin(admin.ModelAdmin):
+    list_display = ("id", "user", "product")
+
+

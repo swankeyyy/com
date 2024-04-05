@@ -1,0 +1,47 @@
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCart"
+     aria-labelledby="offcanvasCartLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasCartLabel">Корзина</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+    </div>
+
+    <div class="offcanvas-body">
+        <div class="table-responsive">
+            <table class="table offcanvasCart-table">
+
+                <tbody>
+                {% for basket in user.basket.all %}
+                    <tr>
+                        <td class="product-img-td"><a href="{% url "product_detail_view" basket.product.pk %}">
+                            <img src="{{ basket.product.poster.url }}"
+                                 alt="">
+                        </a></td>
+                        <td><a href="{% url "product_detail_view" basket.product.pk %}">{{ basket.product.name }}</a>
+                        </td>
+                        <td>{{ basket.product.price }}</td>
+
+                        <td>
+                            <a href="{% url "basket_remove_item" basket.pk %}">
+                                <button class="btn"><i
+                                        class="fa-regular fa-circle-xmark"></i></button>
+                            </a>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="4" class="text-end">Total:</td>
+                    <td>325</td>
+                </tr>
+                </tfoot>
+            </table>
+
+        </div>
+        <div class="text-end"><a href="#" class="btn btn-outline-danger ">Купить</a>
+            <a href="#" class="btn btn-outline-secondary">Checkout</a>
+        </div>
+
+    </div>
+</div>
