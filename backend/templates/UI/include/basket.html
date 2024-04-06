@@ -11,7 +11,7 @@
             <table class="table offcanvasCart-table">
 
                 <tbody>
-                {% for basket in user.basket.all %}
+                {% for basket in user.order.first.order_row.all %}
                     <tr>
                         <td class="product-img-td"><a href="{% url "product_detail_view" basket.product.pk %}">
                             <img src="{{ basket.product.poster.url }}"
@@ -33,6 +33,7 @@
                 <tfoot>
                 <tr>
                     <td colspan="4" class="text-end">Total:</td>
+
                     <td>325</td>
                 </tr>
                 </tfoot>
