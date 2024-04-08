@@ -43,10 +43,11 @@
                                             {{ product.price }}p.
                                         </div>
                                         <div class="product-links">
-                                            {% if user.is_authenticated %}
+                                            {% if user.is_authenticated and product not in user.order.first.get_all_products %}
                                                 <a href="{% url "basket_add_item" product.pk %}" class="btn btn-outline-secondary add-to-card">
                                                     <i class="fa-solid fa-cart-plus"></i>
                                                 </a>
+                                                {{ order_list }}
                                             {% else %}
                                                 <a href="#" class="btn btn-outline-secondary add-to-card disabled">
                                                     <i class="fa-solid fa-cart-plus"></i>

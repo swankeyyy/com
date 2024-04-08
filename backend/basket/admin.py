@@ -1,10 +1,5 @@
 from django.contrib import admin
-from .models import Basket, Order, OrderRow
-
-
-@admin.register(Basket)
-class BasketAdmin(admin.ModelAdmin):
-    list_display = ("id", "user", "product")
+from .models import Order, OrderRow
 
 
 @admin.register(Order)

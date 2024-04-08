@@ -6,6 +6,8 @@ from common.views import CommonTitleMixin
 from .models import Product, Category
 from comments.forms import CommentForm
 from django.core.paginator import Paginator
+from basket.models import Order
+
 
 class ProductsListView(CommonTitleMixin, View):
     """All products at the home page.
@@ -27,9 +29,6 @@ class ProductsListView(CommonTitleMixin, View):
 
     def get(self, request, **kwargs):
         content = self.get_content_by_form(request)
-        # content = Paginator(content, 8)
-        # page_number = request.GET.get('page')
-        # content = content.get_page(page_number)
         return render(request, "products/product_list.html", {'products': content, 'title': self.title})
 
 

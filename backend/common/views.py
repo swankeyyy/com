@@ -5,3 +5,5 @@ class CommonTitleMixin:
         context = super().get_context_data(**kwargs)
         context['title'] = self.title
         return context
+
+

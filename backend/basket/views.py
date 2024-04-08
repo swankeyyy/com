@@ -2,11 +2,11 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.views import View
 from products.models import Product
-
-from .models import Basket, Order, OrderRow
+from .models import Order, OrderRow
 
 
 def basket_remove(request, pk):
+    """Delete item from user Order"""
     basket = OrderRow.objects.get(id=pk)
     basket.delete()
     return HttpResponseRedirect(request.META['HTTP_REFERER'])
@@ -25,5 +25,5 @@ class BasketAdd(View):
             order_row = OrderRow.objects.filter(user=user, product=product, order=order)
             if not order_row:
                 OrderRow.objects.create(user=user, product=product, order=order)
-        print(user.order.first().order_row.all().values("product_id"))
+        print(*map(lambda x: int(x[0]), list(user.order.first().order_row.all().values_list("product_id"))))
         return HttpResponseRedirect(request.META['HTTP_REFERER'])
