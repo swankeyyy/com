@@ -91,7 +91,7 @@ class Product(models.Model):
     year = models.PositiveSmallIntegerField(
         default=2014, verbose_name="Дата выхода(Premier Year)"
     )
-    tag = models.ManyToManyField(Tag,  null=True, blank=True, related_name="games")
+    tag = models.ManyToManyField(Tag, related_name="games")
 
     class Meta:
         verbose_name = "Продукт"

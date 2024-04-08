@@ -1,51 +1,54 @@
 from django.db.models import Q
 from django.shortcuts import render
 from django.views import View
-from django.views.generic import ListView, TemplateView
-from .models import Product, Category, Brand, Tag
+from django.views.generic import DetailView
+from common.views import CommonTitleMixin
+from .models import Product, Category
+from comments.forms import CommentForm
+from django.core.paginator import Paginator
+from basket.models import Order
 
 
-class ProductsListView(View):
-    """All products at the home page"""
+class ProductsListView(CommonTitleMixin, View):
+    """All products at the home page.
+    it filters by tags and gives searched results"""
+    title = 'Главная'
 
-    def get(self, request):
+    def get_content_by_form(self, data):
+        query = data.GET.get("q")
+        tags = any(data.GET.getlist("brand") or data.GET.getlist("tag"))
         content = Product.objects.filter(is_published=True)
-        return render(request, "products/product_list.html", {'products': content})
+        if query:
+            content = content.filter(name__icontains=query)
+        elif tags:
+            content = content.filter(
+                Q(brand__name__in=data.GET.getlist("brand")) |
+                Q(tag__name__in=data.GET.getlist("tag"))
+            )
+        return content
+
+    def get(self, request, **kwargs):
+        content = self.get_content_by_form(request)
+        return render(request, "products/product_list.html", {'products': content, 'title': self.title})
 
 
 class CategoryListView(View):
     """Products by categories"""
+    title = None
 
-    def get(self, request, *args, **kwargs):
+    def get(self, request, **kwargs):
         slug = kwargs['slug']
+        title = Category.objects.filter(url=slug)
+        if title:
+            self.title = title[0].name
         context = Product.objects.filter(categories__url=slug, is_published=True)
-        return render(request, "products/product_list.html", {'products': context})
 
-
-class PageTitleSearchResultsView(View):
-    """Queryset of results searched from top searchfield on page"""
-
-    def get(self, request):
-        query = request.GET.get("q")
-        products = Product.objects.filter(name__icontains=query)
-        return render(request, "products/product_list.html", {"products": products})
-
-
-class FilteredProductsView(View):
-    """Filtered products by brand or tag or by tag and brand
-        html all in templatetags, by the Q and | it works like python "or"
-    """
-
-    def get(self, request):
-        content = Product.objects.filter(
-            Q(brand__name__in=request.GET.getlist("brand")) |
-            Q(tag__name__in=request.GET.getlist("tag"))
-        )
-        return render(request, "products/product_list.html", {"products": content})
+        return render(request, "products/product_list.html", {'products': context, 'title': self.title})
 
 
 class SortedView(View):
     """Sort products view, it get value from form and ordering by it"""
+    title = 'Результаты'
 
     def get(self, request, *args, **kwargs):
         value = request.GET.get("sorting")
@@ -54,16 +57,24 @@ class SortedView(View):
             content = Product.objects.all().order_by(value)
         else:
             content = Product.objects.all().order_by('id')
-        return render(request, "products/product_list.html", {'products': content})
+        return render(request, "products/product_list.html", {'products': content, 'title': self.title})
 
 
-class ProductDetailView(View):
+class ProductDetailView(DetailView):
+    """Detail Product Page"""
+    model = Product
     template_name = "products/product-detail.html"
+    form = CommentForm()
+    slug_field = "url"
+    context_object_name = "product"
 
-    def get(self, request, *args, **kwargs):
-        slug = kwargs['slug']
-        content = Product.objects.get(url=slug)
-        last_products = Product.objects.filter(is_published=True)[0:2]
-        return render(request, self.template_name, {'product': content, "last_products": last_products})
+    def get_last_products(self):
+        return Product.objects.order_by("-id")[0:8]
 
-
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['comments'] = self.get_object().comments.order_by('-id')
+        context['form'] = self.form
+        context['test'] = 'abc'
+        context['title'] = self.get_object().name
+        return context

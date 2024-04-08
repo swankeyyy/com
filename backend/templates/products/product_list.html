@@ -27,7 +27,7 @@
                                     <div class="offer-new">new</div>
                                 </div>
                                 <div class="product-thumb">
-                                    <a href="#">
+                                    <a href="{% url "product_detail_view" product.url %}">
                                         <img src="{{ product.poster.url }}" alt="poster">
                                     </a>
                                 </div>
@@ -40,13 +40,19 @@
                                     </p>
                                     <div class="product-bottom-details d-flex justify-content-between ">
                                         <div class="product-price">
-                                            <small>70p.</small>
                                             {{ product.price }}p.
                                         </div>
                                         <div class="product-links">
-                                            <a href="#" class="btn btn-outline-secondary add-to-card">
-                                                <i class="fa-solid fa-cart-plus"></i>
-                                            </a>
+                                            {% if user.is_authenticated and product not in user.order.first.get_all_products %}
+                                                <a href="{% url "basket_add_item" product.pk %}" class="btn btn-outline-secondary add-to-card">
+                                                    <i class="fa-solid fa-cart-plus"></i>
+                                                </a>
+                                                {{ order_list }}
+                                            {% else %}
+                                                <a href="#" class="btn btn-outline-secondary add-to-card disabled">
+                                                    <i class="fa-solid fa-cart-plus"></i>
+                                                </a>
+                                            {% endif %}
                                         </div>
                                     </div>
                                 </div>
