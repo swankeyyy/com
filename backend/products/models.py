@@ -87,10 +87,11 @@ class Product(models.Model):
         max_digits=6, decimal_places=2, verbose_name="Цена товара(Product Price)"
     )
     url = models.SlugField(max_length=150, unique=True, verbose_name="Url")
-    brand = models.ForeignKey(Brand, on_delete=models.CASCADE, null=True, blank=True)
+    brand = models.ForeignKey(Brand, on_delete=models.CASCADE, null=True, blank=True, related_name="games")
     year = models.PositiveSmallIntegerField(
         default=2014, verbose_name="Дата выхода(Premier Year)"
     )
+    tag = models.ManyToManyField(Tag, related_name="games")
 
     class Meta:
         verbose_name = "Продукт"

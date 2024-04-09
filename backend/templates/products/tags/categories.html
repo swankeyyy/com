@@ -1,0 +1,11 @@
+{% load cache %}
+
+{% cache 30 categories %}
+
+<ul class="list-group p-2 mt-3">
+    {% for category in  categories %}
+    <li class="list-group-item"><a href="{% url 'category_list' category.url %}">{{ category.name }}</a></li>
+    {% endfor %}
+</ul>
+
+{% endcache %}

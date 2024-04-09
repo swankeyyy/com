@@ -1,0 +1,10 @@
+{% extends 'admin/menu.html' %}
+{% load static %}
+{% block branding %}
+<a class="item" href="{% url 'admin:index' %}">
+  <img
+    title="Magic! Ponies! Django! Whee!"
+    src="{% static 'img/logo.png' %}"
+    alt="logo" />
+</a>
+{% endblock %}

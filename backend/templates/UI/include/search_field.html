@@ -1,0 +1,11 @@
+<div class="col-lg-5 col-md-4 header-search">
+    <form action="{% url 'main_page_view' %}" method="get">
+        {% csrf_token %}
+        <div class="input-group">
+            <input type="search" class="form-control" placeholder="Поиск по названию"
+                   aria-label="Поиск по названию" aria-describedby="" name="q">
+            <button class="btn btn-outline-danger " type="submit" id="search"><i
+                    class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </form>
+</div>

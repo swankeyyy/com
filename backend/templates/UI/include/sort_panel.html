@@ -1,0 +1,22 @@
+<div class="col-sm-6">
+    <form action="{% url 'sorted_view' %}" method="get">
+        <div class="d-flex">
+            <div class="input-group mb-3">
+
+                <span class="input-group-text">Sort By:</span>
+                <select class="form-select" aria-label="Sort by:" name="sorting">
+                    <option value="">Выбрать</option>
+                    <option value="name">По названию</option>
+                    <option value="price">По цене</option>
+                    <option value="year">По дате</option>
+
+                </select>
+
+            </div>
+
+            <button class="btn btn-outline-danger ms-2 h-75" type="submit">
+                Сортировать
+            </button>
+        </div>
+    </form>
+</div>

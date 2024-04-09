@@ -1,0 +1,15 @@
+{% load cache %}
+
+
+{% cache 300 sidebar %}
+<div class="sidebar">
+    {% load products_tag %}
+    <form action="{% url 'main_page_view' %}" method="get">
+        {% get_all_tags %}
+        {% get_all_brands %}
+        <button class="btn btn-outline-danger mt-3" type="submit">
+            Подобрать
+        </button>
+    </form>
+</div>
+{% endcache %}

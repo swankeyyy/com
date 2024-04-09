@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+{% load static cache %}
+{% block content %}
+
+    <section class="main-section">
+        <div class="row mt-5 mb-5">
+
+            <div class="col-3 bg-white ">
+                <div class="sidebar">
+
+                    <div class="filter-block ">
+
+                        <h5 class="section-title">Последние поступления</h5>
+                        <ul class="list-unstyled">
+
+                            {% cache 30 last %}
+                            {% for prod in view.get_last_products %}
+                                <li class="my-1">
+                                    <div class="d-flex border border-danger justify-content-between">
+                                        <div><img src="{{ prod.poster.url }}"
+                                                  alt="poster" width="70px" class="py-2 px-2"></div>
+                                        <div class="px-3 py-3">
+                                            <div><span class="text-end fs-4 fw-bolder"><a
+                                                    href="{% url "product_detail_view" prod.url %}">{{ prod.name }}</a></span>
+                                            </div>
+                                            <div>{{ prod.price }}</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            {% endfor %}
+                            {% endcache %}
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="{{ product.poster.url }}" alt="posterr" width="300px"
+                             class="p-3">
+                    </div>
+                    <div class="col-9  d-flex flex-column justify-content-between">
+                        <ul class="list-unstyled">
+                            <li><h1 class="h2 mb-3 section-title">{{ product.name }}</h1></li>
+                            <li><span class="fw-bold">Бренд:</span> {{ product.brand }}</li>
+                            <li><span class="fw-bold">Год выпуска:</span>{{ product.year }}</li>
+                            <li><span class="fw-bold">Теги:</span>{% if product.tag.all %}
+                                {% for tag in product.tag.all %} {{ tag.name }} {% endfor %}{% endif %}</li>
+                            <li><span class="fw-bold fs-3">Цена: {{ product.price }}</span></li>
+                        </ul>
+                        {% if user.is_authenticated and product not in user.order.first.get_all_products %}
+                            <a href="{% url "basket_add_item" product.pk %}">
+                                <button class="btn btn-secondary w-25 mb-3" type="button">
+                                    Добавить в корзину
+                                </button>
+                            </a>
+                        {% else %}
+
+                            <button class="btn btn-secondary w-25 mb-3" type="button" disabled>
+                                Добавить в корзину
+                            </button>
+
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="row mt-5 p-2">
+                    {{ product.description|safe }}
+                </div>
+            </div>
+            <div class="row mt-3 p-2">
+                <div class="col-3"></div>
+                <div class="col-9">
+                    {% if user.is_authenticated %}
+                        <h1 class="h2 mb-3 section-title">Комментарии</h1>
+                        <div>
+                            <form action="{% url 'add_comment' product.pk %}" method="post">
+                                {% csrf_token %}
+                                <div class="input-comment">
+                                    {{ form.text.errors }}
+                                    {{ form.text }}
+                                    <button type="submit" class="btn btn-danger mt-3">Отправить</button>
+                                </div>
+                            </form>
+                        </div>
+                    {% else %}
+                        <div>
+                            <a href="{% url "user_login_view" %}" class="comment-link ms-2 p-2">Войдите</a>, чтобы
+                            оставить комментарий....
+                        </div>
+                    {% endif %}
+                </div>
+
+            </div>
+            <div class="row mt-3 p-2">
+                <div class="col-3"></div>
+                <div class="col-9">
+                    {% for comment in comments %}
+                        <div class="comment p-2 bg-white">
+                            <div class="comment-header d-flex">
+
+                                <div class="comment-img p-2">
+                                    {% if comment.user.photo %}
+                                        <img src="{{ comment.user.photo.url }}" alt="userphoto">
+                                    {% else %}
+                                        <img src="{% static 'img/empty_profile.png' %}" alt="userphoto">
+                                    {% endif %}
+                                </div>
+
+
+                                <div class="comment-username d-flex align-items-end ms-2">{{ comment.user.username }}</div>
+
+                            </div>
+                            <div class="comment-body p-2">{{ comment.text }}</div>
+                            <div class="comment-bottom d-flex justify-content-between">
+                                <a class="comment-link p-2" href="#">Ответить</a>
+                                {% if comment.user.id == user.id %}
+                                    <a href="{% url "delete_comment" comment.pk %}" class="comment-link p-2">Удалить</a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+{% endblock content %}
