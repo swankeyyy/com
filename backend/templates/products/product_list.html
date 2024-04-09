@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-
+{% load cache %}
 
 
 {% block content %}
@@ -7,9 +7,9 @@
         <div class="row mt-4">
             <h1 class="h2 mb-3 section-title">Игры для PlayStation 4</h1>
             <div class="col-3 bg-white ">
-
+                {% cache 300 sidebar %}
                 {% include 'UI/include/sidebar.html' %}
-
+                {% endcache %}
             </div>
             <div class="col-9">
                 <div class="row">

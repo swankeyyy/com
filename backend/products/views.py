@@ -1,3 +1,4 @@
+from django.core.cache import cache
 from django.db.models import Q
 from django.shortcuts import render
 from django.views import View
@@ -41,6 +42,7 @@ class CategoryListView(View):
         title = Category.objects.filter(url=slug)
         if title:
             self.title = title[0].name
+
         context = Product.objects.filter(categories__url=slug, is_published=True)
 
         return render(request, "products/product_list.html", {'products': context, 'title': self.title})
