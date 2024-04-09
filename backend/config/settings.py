@@ -1,17 +1,28 @@
 import os
+import environ
 from pathlib import Path
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
+env = environ.Env(
+    # set casting, default value
+    DEBUG=(bool, False),
+    DOMAIN_NAME=(str),
+    SECRET_KEY=(str),
+    REDIS_PORT=(str),
+    REDIS_HOST=(str)
+)
+
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Take environment variables from .env file
+environ.Env.read_env(BASE_DIR / '.env')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-f$)6qkdeh!c3%g-*ewo5g_01h6+h3ydn2excp$&+i3vf@qh0#j"
-
+SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = env('DEBUG')
 
 ALLOWED_HOSTS = []
 
@@ -25,6 +36,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'django_extensions',
 
     "ckeditor",
     "ckeditor_uploader",
@@ -54,6 +66,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = "config.urls"
+
+DOMAIN_NAME = env('DOMAIN_NAME')
 
 TEMPLATES = [
     {
@@ -263,15 +277,16 @@ CKEDITOR_CONFIGS = {
 }
 
 INTERNAL_IPS = [
-
     "127.0.0.1",
-
 ]
+
+REDIS_PORT = env('REDIS_PORT')
+REDIS_HOST = env('REDIS_HOST')
 
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379/1",
+        "LOCATION": f'redis://{REDIS_HOST}:{REDIS_PORT}/1',
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
