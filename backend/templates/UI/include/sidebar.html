@@ -1,3 +1,7 @@
+{% load cache %}
+
+
+{% cache 300 sidebar %}
 <div class="sidebar">
     {% load products_tag %}
     <form action="{% url 'main_page_view' %}" method="get">
@@ -8,3 +12,4 @@
         </button>
     </form>
 </div>
+{% endcache %}

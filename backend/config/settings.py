@@ -29,7 +29,7 @@ INSTALLED_APPS = [
     "ckeditor",
     "ckeditor_uploader",
     'django_filters',
-
+    "debug_toolbar",
     "users",
     "comments",
     "products",
@@ -44,6 +44,7 @@ LOGOUT_REDIRECT_URL = 'main_page_view'
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -261,4 +262,18 @@ CKEDITOR_CONFIGS = {
     }
 }
 
+INTERNAL_IPS = [
 
+    "127.0.0.1",
+
+]
+
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}

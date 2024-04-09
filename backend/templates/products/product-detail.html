@@ -1,6 +1,7 @@
 {% extends "base.html" %}
-{% load static %}
+{% load static cache %}
 {% block content %}
+
     <section class="main-section">
         <div class="row mt-5 mb-5">
 
@@ -12,7 +13,7 @@
                         <h5 class="section-title">Последние поступления</h5>
                         <ul class="list-unstyled">
 
-
+                            {% cache 30 last %}
                             {% for prod in view.get_last_products %}
                                 <li class="my-1">
                                     <div class="d-flex border border-danger justify-content-between">
@@ -27,7 +28,7 @@
                                     </div>
                                 </li>
                             {% endfor %}
-
+                            {% endcache %}
 
                         </ul>
                     </div>
@@ -124,4 +125,5 @@
         </div>
 
     </section>
+
 {% endblock content %}
