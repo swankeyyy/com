@@ -1,2 +1,1 @@
-*.js linguist-vendored=false
-*.html linguist-vendored=false
+*.java linguist-detectable=false *.dart linguist-language=Dart *.py linguist-detectable=true android/* linguist-vendored build/* linguist-vendored
